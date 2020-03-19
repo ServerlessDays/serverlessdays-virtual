@@ -1,5 +1,6 @@
 {
     "eventDate": "2020-04-29",
     "location": "",
-    "twitter": "@ServerlessDaysV"
+    "twitter": "@ServerlessDaysV",
+    "favicon": "/static/favicon.ico"
 }

@@ -1,0 +1,11 @@
+<div class="f5 f4-l w-100 tc tr-ns pv4 ph1 ph3-m ph5-l avenir z-max">
+    <span class="flex flex-wrap items-center justify-center fr-ns">
+        {% for item in nav %}
+            {% if item.cta %}
+                <a id="{{ item.key }}" class="dib ph3 pv2 mv0 fw6 contrastBkg contrastColor pointer ba b--transparent br3 no-underline grow" href="{{ item.path }}">{{ item.name }}</a>
+            {% else %}
+                <a id="{{ item.key }}" class="dib ph3 pv2 primaryColor primaryBkg fw6 pointer no-underline grow" href="{{ item.path }}">{{ item.name }}</a>
+            {% endif %}
+        {% endfor %}
+    </span>
+</div>

@@ -1,0 +1,12 @@
+<div class="w-100 primaryColor z-1 ">
+    <div class="tc pt5 z-2">
+        {% for item in nav %}
+            <a class="no-underline primaryColor pa2 f6 ma2" href="{{ item.path }}">{{ item.name }}</a>
+        {% endfor %}
+        <div class="w-100 w-80-ns pv3 flex flex-wrap justify-center center tc">
+            <a class="no-underline primaryColor pa2 ma2 f6 pointer" href="/privacy/">Privacy Policy</a>
+            <a class="no-underline primaryColor pa2 ma2 f6 pointer" href="/terms/">Terms and Conditions</a>
+            <a class="no-underline primaryColor pa2 ma2 f6 pointer" href="/coc/">Code of Conduct</a>
+        </div>
+    </div>
+</div>

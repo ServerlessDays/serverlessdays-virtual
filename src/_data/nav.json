@@ -1,0 +1,23 @@
+[
+  {
+    "key": "homeNav",
+    "name": "Home",
+    "path": "/"
+  },
+  {
+    "key": "newsNav",
+    "name": "News",
+    "path": "/news/"
+  },
+  {
+    "key": "cocNav",
+    "name": "Code of Conduct",
+    "path": "/coc/"
+  },
+  {
+    "key": "CFPNav",
+    "name": "CFP",
+    "path": "/CFP/",
+    "cta": true
+  }
+]

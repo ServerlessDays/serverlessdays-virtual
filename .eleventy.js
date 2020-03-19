@@ -1,7 +1,7 @@
 const MarkdownIt = require('markdown-it');
 const md = new MarkdownIt()
 
-const { Purgecss } = require('purgecss')
+const Purgecss = require('purgecss').default
 const { JSDOM } = require('jsdom')
 const CleanCSS = require("clean-css");
 
@@ -42,14 +42,16 @@ module.exports = function (eleventyConfig) {
     // eleventyConfig.addPassthroughCopy('src/css')
     eleventyConfig.addNunjucksShortcode("markdown", function(text) { return md.render(text) }); 
     
-    eleventyConfig.addTransform("purgeCSS", function(content, outputPath){
+    eleventyConfig.addTransform("purgeCSS", async function(content, outputPath){
       if( outputPath.endsWith(".html") ) {
         console.log(outputPath)
-        const purgecss = new Purgecss({
+        const purgeCSSOptions = {
           content: [outputPath],
           css: cssFiles
-        })
-        const purgecssResult = purgecss.purge()
+        }
+        const purgecss = new Purgecss()
+        const purgecssResult = await purgecss.purge(purgeCSSOptions)
+
         let cssMerge = ''
         if(purgecssResult.length>0){
           for (let i = 0; i < purgecssResult.length; i++){
