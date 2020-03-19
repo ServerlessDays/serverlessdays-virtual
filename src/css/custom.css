@@ -1,8 +1,8 @@
-.primaryColor { color: #1f1f1f; }
+.primaryColor { color: #82C457; }
 .primaryBkg { background-color: #fff; }
-.primaryBorder { border-color: #1f1f1f; }
+.primaryBorder { border-color: #82C457; }
 .contrastColor { color: #fff; }
-.contrastBkg { background-color: #127d7d; }
+.contrastBkg { background-color: #82C457; }
 .contrastBorder { border-color: #fff; }
 .accentColor { color: green }
 .accentBkg { background: green }
@@ -17,7 +17,20 @@
 
 .bg-gradient-teal {
     background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(231,255,255,1) 10%, rgba(18,125,125,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,255,229,1) 10%, rgba(130,196,87,1) 50%,rgba(240,255,229,1) 90%,rgba(255,255,255,1) 100%);
+}
+
+.bg-dino {
+    background: #82C457;
+}
+
+.bg-button-gradient{
+    background: linear-gradient(145deg, #75b04e, #8bd25d);
+}
+
+.shadow-6 {
+    box-shadow:  30px 30px 60px #609140, 
+                -30px -30px 60px #a4f76e;
 }
 
 .hero-box-1 {
