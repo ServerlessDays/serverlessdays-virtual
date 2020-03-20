@@ -5,11 +5,6 @@
     "path": "/"
   },
   {
-    "key": "newsNav",
-    "name": "News",
-    "path": "/news/"
-  },
-  {
     "key": "cocNav",
     "name": "Code of Conduct",
     "path": "/coc/"
