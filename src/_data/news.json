@@ -1,0 +1,50 @@
+{
+  "lead": {
+    "title": "ServerlessDays Goes Virtual!",
+    "previewImage": {
+      "url": "",
+      "alt": ""
+    },
+    "description": "We're joining the great pivot to virtual with the announcement of **ServerlessDays Virtual**. A mixed team of ServerlessDays organisers from around the world are coming together to bring ServerlessDays to you!",
+    "publishDate": "2020-03-20",
+    "author": [{
+      "name": "Emrah Şamdan",
+      "url": "https://twitter.com/emrahsamdan"
+    },{
+      "name": "Farrah Campbell",
+      "url": "https://twitter.com/FarrahC32"
+    },{
+      "name": "Gunnar Grosch",
+      "url": "https://twitter.com/GunnarGrosch"
+    },{
+      "name": "Ant Stanley",
+      "url": "https://twitter.com/IamStan"
+    }],
+    "url": "/news/announcing-serverlessdays-virtual"
+  },
+  "posts": [
+    {
+      "title": "ServerlessDays Goes Virtual!",
+      "previewImage": {
+        "url": "",
+        "alt": ""
+      },
+      "description": "We're joining the great pivot to virtual with the announcement of **ServerlessDays Virtual**. A mixed team of ServerlessDays organisers from around the world are coming together to bring ServerlessDays to you!",
+      "publishDate": "2020-03-20",
+      "author": [{
+        "name": "Emrah Şamdan",
+        "url": "https://twitter.com/emrahsamdan"
+      },{
+        "name": "Farrah Campbell",
+        "url": "https://twitter.com/FarrahC32"
+      },{
+        "name": "Gunnar Grosch",
+        "url": "https://twitter.com/GunnarGrosch"
+      },{
+        "name": "Ant Stanley",
+        "url": "https://twitter.com/IamStan"
+      }],
+      "url": "/news/announcing-serverlessdays-virtual"
+    }
+  ]
+}

@@ -9,12 +9,15 @@ const cssFiles = ['./src/css/custom.css','./src/css/markdown.css', './src/css/ta
 
 const cleanCSSOptions = {
   level: {
+    1: {
+      specialComments: "0"
+    },
     2: {
-      all: true, 
-      removeDuplicateRules: true 
+      all: true,
+      removeDuplicateRules: true
     }
   }
-}
+};
 
 const insertCss = (html, css) => {
 

@@ -1,0 +1,60 @@
+---
+layout: base.njk
+page:
+    title: "ServerlessDays Virtual - News"
+    description: "The latest news for ServerlessDays Virtual"
+    image: ""
+---
+<div class="w-100 bg-dino">
+    <div class="w-100 pt2 pt5-ns mt2-ns center">
+        <div class="w-100 w-80-m w-70-l ba br2 b--transparent primaryBkg center shadow-5">
+            <div class="dt-ns pa3 pa4-ns center">
+                <div class="dt-row-ns">
+                    <div class="dtc-ns v-top w-100 w-50-ns">
+                        <h1 class="pl2-ns pv0 mv0 f3 f2-m f1-l"><a class="pointer no-underline black" href="{{ news.lead.url }}">{{ news.lead.title }}</a></h1>
+                        <div class="pl2-ns mv1 i f5">published: {{ news.lead.publishDate }}</div>
+                        <div class="pl2-ns mv1 f5">by
+                        {% for author in news.lead.author %}
+                            <a class="no-underline primaryColor" href="{{ author.url }}" target="_blank">
+                                {{ author.name }}
+                            </a>
+                        {% endfor %}
+                        </div>
+                        <div class="pl2-ns lh-copy f6 f5-ns">
+                            <a class="pointer no-underline black" href="{{ news.lead.url }}">
+                                {% markdown news.lead.description %}
+                            </a>
+                        </div>
+                    </div>
+                    <div class="dtc-ns w-100 w-50-ns v-mid mh0 mh2-ns">
+                        <a class="pointer no-underline black" href="{{ news.lead.url }}">
+                            <img class="ba br2 b--transparent" src="{{ blogHome.lead.previewImage.url }}" alt="{{ blogHome.lead.previewImage.alt }}"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-100 w-80-m w-70-l center mt3-ns mt4 flex flex-wrap justify-between-ns">
+            {% for item in news.posts %}
+                <div class="w-100 w-48-m w-32-l mv1 mv2-ns">
+                    <div class="ba br2 primaryBorder primaryBkg h5 pa3">
+                        <h2 class="pl2-ns pv0 mv0 f4 f3-ns"><a class="pointer no-underline black" href="{{ item.url }}">{{ item.title }}</a></h2>
+                        <div class="pl2-ns mv1 i f6">published: {{ item.publishDate }}</div>
+                        <div class="pl2-ns mv1 f6">by 
+                        {% for author in item.author %}
+                            <a class="no-underline primaryColor" href="{{ author.url }}" target="_blank">
+                                {{ author.name }}
+                            </a>
+                        {% endfor %}
+                        </div>
+                        <div class="pl2-ns pv0 lh-copy f6 mv1">
+                            <a class="pointer no-underline black" href="{{ item.url }}">
+                                {% markdown item.description %}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

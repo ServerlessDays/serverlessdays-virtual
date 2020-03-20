@@ -41,6 +41,9 @@
 .w-05 { width: 5% }
 .w-12 { width: 12.5% }
 .w-16 { width: 16.5% }
+.w-45 { width: 45% }
+.w-32 { width: 32% }
+.w-48 { width: 48% }
 
 .h45 { height: 12rem }
 .w45 { width: 12rem }
@@ -56,6 +59,9 @@
     .shiftRight75-ns { margin-right: -75px }
     .shiftRight90-ns { margin-right: -90px }
     .shiftUp240-ns { margin-top:-240px }
+    .w-48-ns { width: 48% }
+    .w-32-ns { width: 32% }
+    .w-45-ns { width: 45% }
     .w-16-ns { width: 16.5% }
     .w-12-ns { width: 12.5% }
     .w-05-ns { width: 5% }
@@ -71,6 +77,9 @@
     .shiftRight75-l { margin-right: -75px }
     .shiftRight90-l { margin-right: -90px }
     .shiftUp240-l { margin-top:-240px }
+    .w-48-l { width: 48% }
+    .w-32-l { width: 32% }
+    .w-45-l { width: 45% }
     .w-16-l { width: 16.5% }
     .w-12-l { width: 12.5% }
     .w-05-l { width: 5% }
@@ -83,6 +92,9 @@
     .shiftRight90-m { margin-right: -90px }
     .shiftUp240-m { margin-top:-240px }
     .shiftUp90-m { margin-top:-90px }
+    .w-48-m { width: 48% }
+    .w-32-m { width: 32% }
+    .w-45-m { width: 45% }
     .w-16-m { width: 16.5% }
     .w-12-m { width: 12.5% }
     .w-05-m { width: 5% }

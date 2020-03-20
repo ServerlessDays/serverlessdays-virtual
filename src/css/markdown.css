@@ -57,26 +57,26 @@
 .markdown-body a:visited {
   text-decoration: none;
   font-weight: 500;
-  color: skyblue;
+  color: green;
 }
 
 .markdown-body h1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 
 .markdown-body h2 {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 500;
 }
 
 .markdown-body h3 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .markdown-body h4 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-style: italic;
   font-weight: 400;
 }
@@ -157,10 +157,11 @@
 .markdown-body h1::after {
   content: '';
   display: block;
-  height: 6px;
-  margin-top: -15px;
+  height: 24px;
+  margin-top: -30px;
+  margin-left: -10px;
   width: 50%;
-  background:  #7777ff;
+  background:  rgb(140, 255, 140); 
 }
 
 .markdown-body ul {
