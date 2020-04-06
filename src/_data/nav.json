@@ -5,6 +5,11 @@
     "path": "/"
   },
   {
+    "key": "speakerNav",
+    "name": "Speakers",
+    "path": "/speakers/"
+  },
+  {
     "key": "cocNav",
     "name": "Code of Conduct",
     "path": "/coc/"

@@ -1,0 +1,47 @@
+[
+    {
+        "img": "/img/queen/queen1.jpg",
+        "name": "Queen 1",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen2.jpg",
+        "name": "Queen 2",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen3.jpg",
+        "name": "Queen 3",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen4.jpg",
+        "name": "Queen 4",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen5.jpg",
+        "name": "Queen 5",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen6.jpg",
+        "name": "Queen 6",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen7.jpg",
+        "name": "Queen 7",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen8.jpg",
+        "name": "Queen 8",
+        "link": "/speakers/speaker1"
+    },
+    {
+        "img": "/img/queen/queen9.jpg",
+        "name": "Queen 9",
+        "link": "/speakers/speaker1"
+    }
+]
