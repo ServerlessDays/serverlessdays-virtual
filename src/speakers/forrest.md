@@ -17,13 +17,14 @@ speaker:
 
 ## Code-wise, cloud-foolish
 
-As technical decision-makers, our intuition often tells us that the “cheapest” solution to solve a problem (ie, the one with the best cost/benefit tradeoff) is one that:
+As technical decision-makers, our intuition often tells us that the “cheapest” solution to solve a problem (ie, the one with the best cost/benefit tradeoff) is one that: 
 
-Uses technologies we are already comfortable with
-Gives us a sense of control by using open-source or vendor-agnostic software
-Incorporates custom code and tooling where existing off-the-shelf options are pricey or otherwise unappealing
-In this talk, we'll examine using real-world examples why each of these heuristics can lead us astray due to familiarity bias, faulty pattern-matching, or just plain old hubris.
+- Uses technologies we are already comfortable with
+- Gives us a sense of control by using open-source or vendor-agnostic software
+- Incorporates custom code and tooling where existing off-the-shelf options are pricey or otherwise unappealing 
 
-We'll discuss declarative versus imperative infrastructure-as-code tools, "back door lock-in", and the dangers of the world's least boring technology: the code you just wrote.
+In this talk, we'll examine using real-world examples why each of these heuristics can lead us astray due to familiarity bias, faulty pattern-matching, or just plain old hubris. 
 
-You'll leave this talk with a clear sense not just of when to build versus buy, but of how to minimize overall regret in your technology choices. (And possibly with a healthy skepticism of Kubernetes.)
+We'll discuss declarative versus imperative infrastructure-as-code tools, "back door lock-in", and the dangers of the world's least boring technology: the code you just wrote. 
+
+You'll leave this talk with a clear sense not just of when to build versus buy, but of how to minimize overall regret in your technology choices. (And possibly with a healthy skepticism of Kubernetes.) 
