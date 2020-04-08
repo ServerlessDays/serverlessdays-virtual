@@ -3,9 +3,7 @@ layout: speaker.njk
 speaker:
     name: Sheen Brisals
     title: Senior Engineering Manager at Lego Group
-    bio: A seasoned software engineer, AWS Certified Solutions Architect and a team coach, currently working as a Senior Engineering Manager at The LEGO Group architecting serverless solutions. Previously as a principal engineer, tech lead and development manager with leading organizations such as Oracle Corporation, Hewlett-Packard, Omron, TATA, BAe and others. 
-
-    Regular speaker at serverless and AWS conferences. Keen participant at Serverless meetups in London, AWS summits, Serverless Days and others. 
+    bio: A seasoned software engineer, AWS Certified Solutions Architect and a team coach, currently working as a Senior Engineering Manager at The LEGO Group architecting serverless solutions. Previously as a principal engineer, tech lead and development manager with leading organizations such as Oracle Corporation, Hewlett-Packard, Omron, TATA, BAe and others. \n\r Regular speaker at serverless and AWS conferences. Keen participant at Serverless meetups in London, AWS summits, Serverless Days and others. 
     img: /img/sheen.jpg
     social:
     -   name: Twitter
