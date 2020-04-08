@@ -1,0 +1,15 @@
+<div class="mv3 mv4-l">
+    <div class="w-100 ph3 ph0-ns tc tl-ns pb4-l">
+        <h2 class="f1 mv3 primaryColor">Speakers</h2>
+        <div class="pt2 pt3-ns flex flex-wrap">
+            {% for speaker in speakers %}
+                <a class="no-underline grow ma2" href="{{ speaker.link }}" alt="{{ speaker.name }}" >
+                    <img class="w4 h4 ma0 pa0" src="{{speaker.img}}" alt="{{ speaker.name }}">
+                    <div class="tc primaryColor pv1">
+                        {{ speaker.name }}
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

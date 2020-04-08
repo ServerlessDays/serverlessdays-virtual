@@ -1,0 +1,25 @@
+---
+layout: base.njk
+page: 
+    title: ServerlessDays Virtual - Speakers
+    description: One Day. One Track. One Community
+    url: https://virtual.serverlessdays.io/speakers
+    image: 
+---
+<div class="w-100 bg-dino">
+    <div class="ph3 ph0-ns pt4 pt6-ns w-100 center">
+        <div class="w-100 w-90-m w-80-l center tc tl-ns">
+            <h1 class="f1 contrastColor">Speakers</h1>
+                {% for speaker in speakers %}
+                <span class="w5 pa2 pa3-m pa4-l v-top center tc dib">
+                    <a class="no-underline center" href="{{ speaker.link }}">
+                        <img class="ba br4 b--transparent w5" src="{{ speaker.img }}" alt="Image of {{ speaker.name }}" />
+                        <p class="f3 pt2 contrastColor tc">{{ speaker.name }}</p>
+                    </a>
+                </span>
+                {% endfor %}
+        </div>
+        <div class="cf">
+        </div>
+    </div>
+</div>
