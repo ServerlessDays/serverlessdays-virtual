@@ -3,9 +3,7 @@ layout: speaker.njk
 speaker:
     name: Marcia Villalba
     title: Developer Advocate at AWS
-    bio: Marcia is a developer advocate for AWS and the host of FooBar a youtube channel (http://bit.ly/foobar-youtube) where she publishes content every week, related to serverless and the cloud.
-
-    She has been designing and developing software professionally for 15 years and worked in all the different stages of building scaling and performant software. She has deep knowledge of building applications in the cloud and using DevOps processes.
+    bio: Marcia is a developer advocate for AWS and the host of FooBar a youtube channel (http://bit.ly/foobar-youtube) where she publishes content every week, related to serverless and the cloud. \n\r She has been designing and developing software professionally for 15 years and worked in all the different stages of building scaling and performant software. She has deep knowledge of building applications in the cloud and using DevOps processes.
     img: /img/marcia.jpg
     social:
     -   name: Twitter
