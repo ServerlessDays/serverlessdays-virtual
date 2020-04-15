@@ -1,5 +1,10 @@
 ---
 layout: speaker.njk
+page:
+    title: ServerlessDays Virtual - Sheen Brisals
+    description: 'Shillings in Serverless'
+    url: https://virtual.serverlessdays.io/speakers/202004/sheen
+    image: /img/og/14.png
 speaker:
     name: Sheen Brisals
     title: Senior Engineering Manager at Lego Group

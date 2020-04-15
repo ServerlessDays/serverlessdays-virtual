@@ -1,5 +1,10 @@
 ---
 layout: speaker.njk
+page:
+    title: ServerlessDays Virtual - Marcia Villalba
+    description: 'CI/CD for Serverless Applications'
+    url: https://virtual.serverlessdays.io/speakers/202004/marcia
+    image: /img/og/12.png
 speaker:
     name: Marcia Villalba
     title: Developer Advocate at AWS

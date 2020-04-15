@@ -3,36 +3,36 @@
         "img": "/img/forrest.jpg",
         "name": "Forrest Brazeal",
         "talk": "Code-wise, cloud-foolish",
-        "link": "/speakers/forrest"
+        "link": "/speakers/202004/forrest"
     },
     {
         "img": "/img/marcia.jpg",
         "name": "Marcia Villalba",
         "talk": "CI/CD for Serverless Applications",
-        "link": "/speakers/marcia"
+        "link": "/speakers/202004/marcia"
     },
     {
         "img": "/img/kenRobbins.jpeg",
         "name": "Ken Robbins",
         "talk": "Humanity - powered by serverless",
-        "link": "/speakers/kenRobbins"
+        "link": "/speakers/202004/kenRobbins"
     },
     {
         "img": "/img/sheen.jpg",
         "name": "Sheen Brisals",
         "talk": "Shillings in Serverless",
-        "link": "/speakers/sheen"
+        "link": "/speakers/202004/sheen"
     },
     {
         "img": "/img/yancui.jpg",
         "name": "Yan Cui",
         "talk": "Beware the potholes on the road to serverless",
-        "link": "/speakers/yanCui"
+        "link": "/speakers/202004/yanCui"
     },
     {
         "img": "/img/brandonEvans.jpg",
         "name": "Brandon Evans",
         "talk": "Attacking Serverless Servers",
-        "link": "/speakers/brandonEvans"
+        "link": "/speakers/202004/brandonEvans"
     }
 ]
