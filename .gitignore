@@ -106,3 +106,4 @@ dist
 .DS_Store
 _site/
 dist/
+src/functions/register/secrets.json

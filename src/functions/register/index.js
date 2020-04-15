@@ -1,9 +1,9 @@
 import fetch from 'node-fetch'
+import secrets from './secrets.json'
 
 const addSubscriber = async ({name,email}) => {
     let result = false
-    const APIKey = process.env('APIKey')
-    const url = process.env('url')
+    const { APIKey, url } = secrets
 
     if (APIKey) {
         if (url){
@@ -16,19 +16,24 @@ const addSubscriber = async ({name,email}) => {
                 ConsentToTrack: 'No'
             }
 
-             const response = await fetch(url, {
+            const request = {
                 method: 'POST', // *GET, POST, PUT, DELETE, etc.
                 headers: {
                     'Content-Type': 'application/json',
-                    'Authentication': `Basic ${Buffer.from(APIKey).toString('base64')}`
+                    'Authorization': `Basic ${Buffer.from(`${APIKey}:x`).toString('base64')}`
                     // 'Content-Type': 'application/x-www-form-urlencoded',
                 },
                 redirect: 'follow', // manual, *follow, error
                 referrerPolicy: 'no-referrer', // no-referrer, *client
                 body: JSON.stringify(responseBody) // body data type must match "Content-Type" header
-            });
+            }
+            
+            const response = await fetch(url, request );
+            
             if (response.ok) {
                 result = true
+            } else {
+              console.log(response)
             }
         } else {
             console.log('No URL specified')

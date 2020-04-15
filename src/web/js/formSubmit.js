@@ -58,8 +58,7 @@ registration.onsubmit = async function (e) {
                 name: data.name
             }
 
-            const response = await postData('https://api.createsend.com/api/v3.2/subscribers/f93ee241f1d144b82525b6e5090b7116.json', responseBody)
-
+            const response = await postData('/.netlify/functions', responseBody)
             
             if (response.ok) {
                 registration.style.display = "none"
