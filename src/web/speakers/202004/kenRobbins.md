@@ -1,5 +1,10 @@
 ---
 layout: speaker.njk
+page:
+    title: ServerlessDays Virtual - Ken Robbins
+    description: 'Humanity - powered by serverless'
+    url: https://virtual.serverlessdays.io/speakers/202004/kenRobbins
+    image: https://virtual.serverlessdays.io/img/og/13.png
 speaker:
     name: Ken Robbins
     title: CEO at CloudPegBoard

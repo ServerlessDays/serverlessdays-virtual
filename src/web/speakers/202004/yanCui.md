@@ -1,5 +1,10 @@
 ---
 layout: speaker.njk
+page:
+    title: ServerlessDays Virtual - Yan Cui
+    description: 'Beware the potholes on the road to serverless'
+    url: https://virtual.serverlessdays.io/speakers/202004/yanCui
+    image: https://virtual.serverlessdays.io/img/og/15.png
 speaker:
     name: Yan Cui
     title: AWS Serverless Hero | Independent Consultant
