@@ -34,5 +34,12 @@
         "name": "Brandon Evans",
         "talk": "Attacking Serverless Servers",
         "link": "/speakers/202004/brandonEvans"
+    },
+    {
+        "img": "/img/jeremy-daly.png",
+        "name": "Jeremy Daly",
+        "talk": "Event Host",
+        "link": "/speakers/202004/jeremyDaly"
     }
+
 ]
