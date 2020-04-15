@@ -24,6 +24,10 @@
     background: #82C457;
 }
 
+.bg-dino-o70 {
+    background: rgba(130,196,87,0.7);
+}
+
 .bg-button-gradient{
     background: linear-gradient(145deg, #75b04e, #8bd25d);
 }

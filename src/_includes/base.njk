@@ -25,8 +25,10 @@
     <link rel="icon" href="{{ event.favicon }}" type="image/x-icon"/>
     </head>
     <body class="avenir w-100">
+      {% include 'components/register.njk'%}
       {% include 'components/navBar.njk' %}
         {{ content | safe }}
     </body>
     {% include 'components/footer.njk' %}
+    <script src="/js/formSubmit.js"></script>
 </html>

@@ -39,6 +39,7 @@ module.exports = function (eleventyConfig) {
     // Copy the `img/` directory
     eleventyConfig.addPassthroughCopy('src/img')
     eleventyConfig.addPassthroughCopy('src/static')
+    eleventyConfig.addPassthroughCopy('src/js')
   
     // Copy the `css/fonts/` directory
     // If you use a subdirectory, it’ll copy using the same directory structure.

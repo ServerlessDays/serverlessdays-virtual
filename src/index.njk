@@ -7,11 +7,11 @@ page:
 ---
 <div class="w-100">
     <div class="w-100 bg-dino">
-        <div class="w-100 w-90-m w-80-l pt2 pt5-ns mt2-ns center">
-            <div class="dt-ns pv2 center">
-                <div class="db dtc-ns w-100 w-45-ns tc tl-ns v-mid">  
-                    <div class="dib relative w-90 w-100-ns pr2 v-mid">                      
-                        <svg viewBox="0 0 543 239" version="1.1" preserveAspectRatio="xMinYMin meet" class="dib">
+        <div class="w-100 w-90-ns pt2 mt2-ns center">
+            <div class="flex flex-wrap items-start pv2">
+                <div class="w-100 w-60-ns tc tl-ns">  
+                    <div class="w-90 pt4 tc">                      
+                        <svg viewBox="0 0 543 239" version="1.1" preserveAspectRatio="xMinYMin meet">
                             <defs>
                                 <filter x="-5.4%" y="-48.7%" width="111.0%" height="197.4%" filterUnits="objectBoundingBox" id="filter-1">
                                     <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
@@ -115,20 +115,22 @@ page:
                             </g>
                         </svg>
                     </div>
+                    <div class="w-100 mw7-ns mv3 mv4-ns">
+                        <span class="pa2 pa3-ns f3 f2-ns b primaryBkg primaryColor tl">One Day. One Track. One Community</span>
+                    </div>
+                    <div class="pa2 ph2-ns pv3-ns f3 f2-ns b contrastColor">{{ event.eventDate }}</div>
+                    <div class="mv2">
+                        <button id="registerButton" onclick="showRegistration()" class="primaryColor bg-black pointer grow f3 ph4 pv3 ba br4 b--transparent">
+                            Register
+                        </button>
+                    </div>
                 </div>
-                <div class="db dtc-ns w-100 w-auto-ns tc tr-ns v-mid">             
-                    <div class="pa2 pa3-ns f3 f2-ns b contrastColor">{{ event.eventDate }}</div>
-                    <div class="pa2 pa3-ns f3 f2-ns b primaryBkg primaryColor tc-l">One Day. One Track. One Community</div>
+                <div class="w-100 w-40-ns">             
+                    <div class="w-100 w-90-m w-80-l center">
+                        {% include "components/speakers.njk" %}
+                    </div>
                 </div>
             </div>
-            <div class="pt3 center tc mt3 pb5 grow">
-                <a class="f4 f3-ns no-underline pointer ph3 pv2 ba br2 b--transparent bg-button-gradient shadow-6 white b" href="{{ event.cfp }}" target="_blank">Submit to CFP</a>
-            </div>
-        </div>
-    </div>
-    <div class="w-100 priamryColor primaryBkg">
-        <div class="w-100 w-90-m w-80-l center">
-            {% include "components/speakers.njk" %}
         </div>
     </div>
 </div>
