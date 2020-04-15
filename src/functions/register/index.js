@@ -53,7 +53,7 @@ const addSubscriber = async ({name,email}) => {
 }
 
 const handler = async (event)=> {
-
+  console.log(event)
   let response = {};
 
   try {
