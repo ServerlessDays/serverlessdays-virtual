@@ -1,6 +1,5 @@
 const MarkdownIt = require('markdown-it');
 const md = new MarkdownIt()
-
 const Purgecss = require('purgecss').default
 const { JSDOM } = require('jsdom')
 const CleanCSS = require("clean-css");
@@ -76,7 +75,8 @@ module.exports = function (eleventyConfig) {
     return {
       passthroughFileCopy: true,
       dir: {
-        input: 'src'
+        input: 'src',
+        output: 'dist/web'
       },
       markdownTemplateEngine: 'njk'
     }

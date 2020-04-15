@@ -35,8 +35,8 @@ registration.onsubmit = async function (e) {
 
     // collect the form data while iterating over the inputs
     const data = {};
-    for (let i = 0, ii = form.length; i < ii; ++i) {
-        var input = form[i];
+    for (let i = 0, ii = registration.length; i < ii; ++i) {
+        var input = registration[i];
         if (input.name) {
             if (input.type !== 'checkbox') {
                 data[input.name] = input.value;
@@ -53,11 +53,19 @@ registration.onsubmit = async function (e) {
     } else {
         try {
 
-            const response = await postData('https://yw6oqwe448.execute-api.eu-west-1.amazonaws.com/default/api', data)
+            const responseBody = {
+                email: data.email,
+                name: data.name
+            }
 
-            registration.style.display = "none"
-            thankyou.style.display = "block";
-            if (!response.ok) {
+            const response = await postData('https://api.createsend.com/api/v3.2/subscribers/f93ee241f1d144b82525b6e5090b7116.json', responseBody)
+
+            
+            if (response.ok) {
+                registration.style.display = "none"
+                thankyou.style.display = "block";
+                alert("Unable to complete registration")
+            } else {
                 console.log(response)
             }
         } catch (error) {
@@ -65,3 +73,4 @@ registration.onsubmit = async function (e) {
         }
     }
 }
+
