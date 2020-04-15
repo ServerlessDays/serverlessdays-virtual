@@ -4,7 +4,7 @@ page:
     title: ServerlessDays Virtual - Forrest Brazeal
     description: 'Code-wise, cloud-foolish'
     url: https://virtual.serverlessdays.io/speakers/202004/forrest
-    image: /img/og/11.png
+    image: https://virtual.serverlessdays.io/img/og/11.png
 speaker:
     name: Forrest Brazeal 
     title: Senior Manager at A Cloud Guru

@@ -4,7 +4,7 @@ page:
     title: ServerlessDays Virtual - Brandon Evans
     description: 'Attacking Serverless Servers: Reverse Engineering the AWS, Azure, and GCP Function Runtimes'
     url: https://virtual.serverlessdays.io/speakers/202004/brandonEvans
-    image: /img/og/16.png
+    image: https://virtual.serverlessdays.io/img/og/16.png
 speaker:
     name: Brandon Evans
     title: Instructor at SANS Institute
