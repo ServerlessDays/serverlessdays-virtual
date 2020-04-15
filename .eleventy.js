@@ -4,7 +4,7 @@ const Purgecss = require('purgecss').default
 const { JSDOM } = require('jsdom')
 const CleanCSS = require("clean-css");
 
-const cssFiles = ['./src/css/custom.css','./src/css/markdown.css', './src/css/tachyons.css']
+const cssFiles = ['./src/web/css/custom.css','./src/web/css/markdown.css', './src/web/css/tachyons.css']
 
 const cleanCSSOptions = {
   level: {
@@ -36,9 +36,9 @@ const insertCss = (html, css) => {
 
 module.exports = function (eleventyConfig) {
     // Copy the `img/` directory
-    eleventyConfig.addPassthroughCopy('src/img')
-    eleventyConfig.addPassthroughCopy('src/static')
-    eleventyConfig.addPassthroughCopy('src/js')
+    eleventyConfig.addPassthroughCopy('src/web/img')
+    eleventyConfig.addPassthroughCopy('src/web/static')
+    eleventyConfig.addPassthroughCopy('src/web/js')
   
     // Copy the `css/fonts/` directory
     // If you use a subdirectory, it’ll copy using the same directory structure.
