@@ -27,7 +27,7 @@ async function postData(url = '', data = {}) {
     }
 
     const response = await fetch(url, request);
-    return await response; // parses JSON response into native JavaScript objects
+    return response; // parses JSON response into native JavaScript objects
 }
 
 registration.onsubmit = async function (e) {
@@ -64,8 +64,8 @@ registration.onsubmit = async function (e) {
             if (response.ok) {
                 registration.style.display = "none"
                 thankyou.style.display = "block";
-                alert("Unable to complete registration")
             } else {
+                alert("Unable to complete registration")
                 console.log(response)
             }
         } catch (error) {
