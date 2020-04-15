@@ -11,6 +11,12 @@ const addSubscriber = async ({name,email}) => {
             const responseBody = {
                 EmailAddress: email,
                 Name: name,
+                CustomFields: [
+                  {
+                      Key: "virtual",
+                      Value: 1
+                  }
+                ],
                 Resubscribe: true,
                 RestartSubscriptionBasedAutoresponders: true,
                 ConsentToTrack: 'No'
