@@ -4,6 +4,7 @@ import secrets from './secrets.json'
 const addSubscriber = async ({name,email}) => {
     let result = false
     const { APIKey, url } = secrets
+    console.log(secrets)
 
     if (APIKey) {
         if (url){
@@ -39,6 +40,7 @@ const addSubscriber = async ({name,email}) => {
             if (response.ok) {
                 result = true
             } else {
+              console.log(request)
               console.log(response)
             }
         } else {
@@ -66,7 +68,6 @@ const handler = async (event)=> {
             if (await addSubscriber(payload)) {
                 response = {
                     statusCode: 200,
-                    headers: {},
                     body: JSON.stringify({ success: true }),
                 };
             
