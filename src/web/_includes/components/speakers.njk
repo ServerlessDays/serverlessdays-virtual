@@ -1,0 +1,14 @@
+<div class="ma3 center tc">
+    <div class="w-100 ph2 ph0-ns tc tl-ns pb4-l">
+        <div class="pt2 pt3-ns flex flex-wrap justify-center">
+            {% for speaker in speakers %}
+                <a class="w45 h45 no-underline ma0 pa0 link dt hide-child cover bg-center" style="background: url({{ speaker.img }})" href="{{ speaker.link }}" alt="{{ speaker.name }}" >
+                    <div class="white dtc v-mid w-100 h-100 child bg-black-40 tc f4 pa1">
+                        <p class="b">{{ speaker.name }}</p>
+                        <p>{{ speaker.talk }}</p>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>

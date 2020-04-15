@@ -1,0 +1,25 @@
+<div id="registrationForm" class="dn">
+    <div class="dt w-100 vh-100 fixed z-max bg-dino-o70">
+        <div class="dtc v-top v-mid-ns">
+            <div class="measure-ns bg-black primaryColor pa2 pt2 pb3-ns ph4-ns center tl">
+                <div class="tr pv0"><button class="f3 pt1 pointer ma0 bg-black white b bn" onclick="closeRegistration()">✖</button></div>
+                <form id="registration">
+                    <h1>Registration</h1>
+                    <p>Register now for Virtual ServerlessDays</p>
+                    <label class="mv2" for="name">Name:</label><br>
+                    <input class="mv2 ba br1 b--transparent w-100 w-90-ns pa1 f5" type="text" id="name" name="name"><br>
+                    <label class="mv2" for="email">Email:</label><br>
+                    <input class="mv2 ba br1 b--transparent w-100 w-90-ns pa1 f5" type="email" id="email" name="email">
+                    <div class="mv2 f6">
+                        By submitting your details you agree to our <a class="no-underline white b pointer f6" href="/privacy" target="_blank">privacy policy.</a>
+                    </div>
+                    <input class="mv3 ba br3 b--transparent ph3 pv2 contrastColor contrastBkg f4 b pointer" type="submit" id="register" value="Register">
+                </form>
+                <div id="thankyou" class="dn">
+                    <span>Thank you for registering for Virtual ServerlessDays</span>
+                    <button class="mv3 ba br3 b--transparent ph3 pv2 contrastColor contrastBkg f4 " onclick="closeRegistration()">Home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
