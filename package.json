@@ -15,6 +15,9 @@
     "virtual",
     "website"
   ],
+  "engines": {
+    "node": ">=12.0"
+  },
   "author": "A. Stanley",
   "license": "MIT",
   "dependencies": {

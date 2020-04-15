@@ -58,7 +58,7 @@ registration.onsubmit = async function (e) {
                 name: data.name
             }
 
-            const response = await postData('/.netlify/functions', responseBody)
+            const response = await postData('/.netlify/functions/registerFunction', responseBody)
             
             if (response.ok) {
                 registration.style.display = "none"
