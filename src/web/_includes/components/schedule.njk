@@ -1,0 +1,17 @@
+<div class="w-100 w-90-m w-80-ns flex flex-wrap center">
+    {% for item in schedule %}
+        <a href="{{ item.speakerURL }}" class="no-underline primaryColor pointer w-100 w-50-m w-30-l">
+            <div class="lh-copy dark-gray ma3">
+                <div class="ph2 pt2 b f4">
+                    {{ item.sessionName }}
+                </div>
+                <div class="ph2 pv1">
+                    {{ item.speaker }}
+                </div>
+                <div class="ph2 pv1 primaryColor">
+                    {{ item.startTime }}
+                </div>
+            </div>
+        </a>
+    {% endfor %}
+</div>
