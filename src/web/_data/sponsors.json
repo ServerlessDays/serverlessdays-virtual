@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Epsagon",
+        "link": "https://epsagon.com",
+        "img":"/img/Epsagon.png"
+    },
+    {
+        "name":"Stackery",
+        "link": "https://stackery.io",
+        "img":"/img/Stackery.png"
+    },
+    {
+        "name":"Senzo",
+        "link": "https://senzo.io",
+        "img":"/img/Senzo.png"
+    },
+    {
+        "name":"Thundra",
+        "link": "https://thundra.io",
+        "img":"/img/Thundra.png"
+    }
+]
