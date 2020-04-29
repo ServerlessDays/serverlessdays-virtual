@@ -9,7 +9,7 @@ page:
     <div class="w-100 bg-dino">
         <div class="w-100 w-90-ns pt2 mt2-ns center">
             <div class="flex flex-wrap items-start pv2">
-                <div class="w-100 w-50-ns tc tl-ns">  
+                <div class="w-100 w-50-l tc tl-ns">  
                     <div class="w-90 pt4 tc">                      
                         <svg viewBox="0 0 543 239" version="1.1" preserveAspectRatio="xMinYMin meet">
                             <defs>
@@ -123,13 +123,13 @@ page:
                         
                         <div class="mv2">
                             <button id="registerButton" onclick="showRegistration()" class="primaryBkg primaryColor b pointer grow f3 ph4 pv3 ba br4 b--transparent">
-                                Register
+                                Sign Up
                             </button>
                         </div>
                     </div>
                     <div class="pa2 pa3-ns mv3 mv4-ns f3 f2-ns b primaryBkg primaryColor tc">One Day. One Track. One Community</div>
                 </div>
-                <div class="w-100 w-50-ns">             
+                <div class="w-100 w-50-l">             
                     <div class="w-100 center">
                         {% include "components/speakers.njk" %}
                     </div>
@@ -143,8 +143,23 @@ page:
         </div>
     </div>
     <div class="w-100">
-        <div class="w-100 w-90-ns pt2 mt2-ns center">
-            <h2 class="f1 primaryColor tc">Schedule</h2>
+        <div class="w-100 w-90-ns pt2 mt3-ns center">
+            <h2 class="f1 primaryColor tl">Stream</h2>
+            <div class="pa2 mw7-ns center">
+                <div class="center">
+                    {% include 'components/youtube.njk' %}
+                </div>
+                <div class="mt3">
+                    <span class="dark-gray f4">
+                        Join the conversation on <a href="{{ event.discord }}" target="_blank" class="no-underline pointer"><img class="dib w5 v-mid" src="/img/discord.svg" alt="Discord Logo"/></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-100">
+        <div class="w-100 w-90-ns pt2 center">
+            <h2 class="f1 primaryColor tl">Schedule</h2>
             <div>
                 {% include "components/schedule.njk" %}
             </div>
