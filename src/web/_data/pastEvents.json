@@ -1,0 +1,90 @@
+[ {
+    "id": "april-2020",
+    "name": "April 2020",
+    "description": "Inaugral ServerlessDays Virtual, featuring talks from Forrest Brazzeal, Sheen Brisals, Marcia Villabla, Brandon Evans, Yan Cui and Ken Robbins. Hosted by Jeremy Daly!",
+    "event" : {
+        "eventDate": "29 April 2020",
+        "startTime": "9am PST / 12pm EDT / 5pm BST / 6pm CEST",
+        "location": "",
+        "twitter": "@ServerlessDaysV",
+        "favicon": "/static/favicon.ico",
+        "cfp": "https://forms.gle/7SNAccrTYFHaQpPt8",
+        "youtube": {
+            "id": "H4WoQd2yVJQ",
+            "url": "https://www.youtube.com/watch?v=H4WoQd2yVJQ&feature=youtu.be"
+        },
+        "discord": "https://discord.gg/4gEr9Gd"
+    },
+    "sponsors": [
+        {
+            "name":"Epsagon",
+            "link": "https://epsagon.com",
+            "img":"/img/Epsagon.png"
+        },
+        {
+            "name":"Stackery",
+            "link": "https://stackery.io",
+            "img":"/img/Stackery.png"
+        },
+        {
+            "name":"Senzo",
+            "link": "https://senzo.io",
+            "img":"/img/Senzo.png"
+        },
+        {
+            "name":"Thundra",
+            "link": "https://thundra.io",
+            "img":"/img/Thundra.png"
+        }
+    ],
+    "speakers": [
+        {
+            "img": "/img/jeremy-daly.png",
+            "name": "Jeremy Daly",
+            "talk": "Event Host",
+            "link": "/speakers/202004/jeremyDaly"
+        },
+        {
+            "img": "/img/forrest.jpg",
+            "name": "Forrest Brazeal",
+            "talk": "Code-wise, cloud-foolish",
+            "link": "/speakers/202004/forrest",
+            "youtube":  "H4WoQd2yVJQ?start=323"
+        },
+        {
+            "img": "/img/sheen.jpg",
+            "name": "Sheen Brisals",
+            "talk": "Shillings in Serverless",
+            "link": "/speakers/202004/sheen",
+            "youtube":  "H4WoQd2yVJQ?start=2437"
+        },
+        {
+            "img": "/img/marcia.jpg",
+            "name": "Marcia Villalba",
+            "talk": "CI/CD for Serverless Applications",
+            "link": "/speakers/202004/marcia",
+            "youtube":  "H4WoQd2yVJQ?start=5035"
+        },
+        {
+            "img": "/img/brandonEvans.jpg",
+            "name": "Brandon Evans",
+            "talk": "Attacking Serverless Servers",
+            "link": "/speakers/202004/brandonEvans",
+            "youtube":  "H4WoQd2yVJQ?start=7847"
+        },
+        {
+            "img": "/img/yancui.jpg",
+            "name": "Yan Cui",
+            "talk": "Beware the potholes on the road to serverless",
+            "link": "/speakers/202004/yanCui",
+            "youtube":  "H4WoQd2yVJQ?start=10591"
+        },
+        {
+            "img": "/img/kenRobbins.jpeg",
+            "name": "Ken Robbins",
+            "talk": "Humanity - powered by serverless",
+            "link": "/speakers/202004/kenRobbins",
+            "youtube":  "H4WoQd2yVJQ?start=13412"
+        }
+    ]
+}]

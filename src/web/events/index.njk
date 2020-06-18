@@ -1,0 +1,41 @@
+---
+layout: base.njk
+page:
+    title: "ServerlessDays Virtual - Past Events"
+    description: "Catch up on previous ServerlessDays Virtual Events!"
+    image: https://virtual.serverlessdays.io/img/og/17.png
+---
+<div class="w-100">
+    <div class="w-100">
+        <div class="w-100">
+            <div class="w-100 w-90-m w-80-l center mt1 pb4 pb0-ns ">
+                <h1 class="ml3 pt3 pb0 mv0 f2 f2-m f1-l dino">
+                    Past Events
+                </h1>
+            </div>
+            <div class="ma3 pt2 pt4-ns">
+                <div class="w-100 w-90-m w-80-l center">
+                    {% for item in pastEvents %}
+                        <a href="/events/{{ item.id }}" class="no-underline primaryColor pointer">
+                            <div class="grow ba br3 b--transparent bg-dino white shadow-5 w-100 w-70-m w-60-l flex flex-wrap justify-between item-start">
+                                <div>
+                                    <div class="lh-copy ma3">
+                                        <div class="ph2 pt2 b f3">
+                                            {{ item.name }}
+                                        </div>
+                                        <div class="ph2 pv1">
+                                            {{ item.event.eventDate }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ma3 measure-narrow measure-ns lh-copy">
+                                    {{ item.description }}
+                                </div>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
