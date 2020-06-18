@@ -10,7 +10,7 @@ page:
         <div class="w-100 w-90-ns pt2 mt2-ns center">
             <div class="flex flex-wrap justify-between items-center pv2">
                 <div class="w-100 w-50-l tc tl-ns">  
-                    <div class="w-90 pt4 tc">                      
+                    <div class="w-90 pt4 tc center">                      
                         <svg viewBox="0 0 543 239" version="1.1" preserveAspectRatio="xMinYMin meet">
                             <defs>
                                 <filter x="-5.4%" y="-48.7%" width="111.0%" height="197.4%" filterUnits="objectBoundingBox" id="filter-1">
@@ -117,9 +117,9 @@ page:
                     </div>
                     <div>
                         <div class="ph2 pb1 pt3 f3 f2-ns b contrastColor">{{ event.eventDate }}</div>
-                        <div class="ph2 pb3 f4 contrastColor">{{ event.startTime }}</div>
-                        <div class="w-100 tl pt4 pb3">
-                            <a class="ph3 pv2 no-underline pointer white bg-dark-green v-mid f3 ba br3 grow b--transparent center" target="_blank">
+                        <div class="ph2 pb3 f5 f4-ns contrastColor">{{ event.startTime }}</div>
+                        <div class="w-100 tc tl-ns pt4 pb3">
+                            <a class="ph3 pv2 b no-underline pointer white bg-dark-green v-mid f4 f3-ns ba br3 grow b--transparent center" target="_blank">
                                 Submit to the CFP
                             </a>
                         </div>
@@ -134,7 +134,7 @@ page:
             </div>
         </div>
         <div class="w-100">
-            <div class="w-70-ns center mt1 pb4">
+            <div class="w-70-ns center mt1 pb4 tc">
                 {% include "components/sponsors.njk" %}
             </div>
         </div>
