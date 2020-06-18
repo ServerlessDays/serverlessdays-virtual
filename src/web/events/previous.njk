@@ -1,0 +1,63 @@
+---
+layout: base.njk
+pagination:
+    data: pastEvents
+    size: 1
+    alias: pastEvent
+permalink: "events/{{ pastEvent.id | slug }}/"
+---
+---
+<div class="w-100">
+    <div class="w-100">
+        <div class="w-100">
+            <div class="w-100 w-90-m w-80-l center mt1 pb4 pb0-ns flex flex-wrap justify-between">
+                <div>
+                    <h1 class="ml3 pt3 pb0 mv0 f2 f2-m f1-l dino">
+                        ServerlessDays Virtual
+                    </h1>
+                    <p class="ml3 f4 pl1 f3-ns dark-gray">
+                        {{ pastEvent.event.eventDate}}
+                    </p>
+
+                </div>
+                <div class="flex flex-wrap items-center justify-between mt3 w-100 w-60-m w-50-l bg-dino ba br3 b--transparent shadow-5">
+                    {% for sponsor in pastEvent.sponsors %}
+                        <a class="no-underline pointer db dib-ns w-100 w-auto-ns center mv3" href="{{ sponsor.link }}" target="_blank">
+                            <img class="pa2" src="{{ sponsor.img }}" alt="{{ sponsor.name }}"/>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="w-100 w-90-m w-80-l center">
+            {% for item in pastEvent.speakers %}
+                    <div class="lh-copy dark-gray ma3 flex flex-wrap justify-between">
+                        <div class="bt b--black bw2 pb3 flex flex-wrap">
+                            <div class="pt3">
+                                <img class="w4 h4 ba br3 b--transparent" src="{{ item.img }}" alt="Profile photo of {{ item.name }}"/>
+                            </div>
+                            <div class="pt1">
+                                <div class="ph2 pt2 b f4">
+                                    {{ item.talk }}
+                                </div>
+                                <div class="ph2 pv1">
+                                    <a href="{{ item.link }}" class="no-underline dino pointer w-100 w-50-m w-30-l">
+                                        {{ item.name }}
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        {% if item.youtube %}
+                            <div class="pb3">
+                                <iframe class="ba br3 b--transparent" width="480" height="270" src="https://www.youtube-nocookie.com/embed/{{ item.youtube }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                </iframe>
+                            </div>
+                        {% endif %}
+                    </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+

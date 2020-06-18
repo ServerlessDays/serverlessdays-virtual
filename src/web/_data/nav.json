@@ -5,9 +5,9 @@
     "path": "/"
   },
   {
-    "key": "speakerNav",
-    "name": "Speakers",
-    "path": "/speakers/"
+    "key": "pastNav",
+    "name": "Past Events",
+    "path": "/events/"
   },
   {
     "key": "cocNav",

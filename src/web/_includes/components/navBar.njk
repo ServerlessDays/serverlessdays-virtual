@@ -2,9 +2,9 @@
     <span class="flex flex-wrap items-center justify-center fr-ns">
         {% for item in nav %}
             {% if item.cta %}
-                <a id="{{ item.key }}" class="dib ph3 pv2 mv0 fw6 contrastBkg contrastColor pointer ba b--transparent br3 no-underline grow" href="{{ item.path }}">{{ item.name }}</a>
+                <a id="{{ item.key }}" class="dib ph3 pv2 mv0 fw6 bg-black white pointer ba b--transparent br2 no-underline grow" href="{{ item.path }}">{{ item.name }}</a>
             {% else %}
-                <a id="{{ item.key }}" class="dib ph3 pv2 primaryColor primaryBkg fw6 pointer no-underline grow" href="{{ item.path }}">{{ item.name }}</a>
+                <a id="{{ item.key }}" class="dib ph3 pv2 black bg-white fw6 pointer no-underline grow" href="{{ item.path }}">{{ item.name }}</a>
             {% endif %}
         {% endfor %}
     </span>

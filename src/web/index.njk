@@ -6,9 +6,9 @@ page:
     image: https://virtual.serverlessdays.io/img/og/17.png
 ---
 <div class="w-100">
-    <div class="w-100 bg-dino">
+    <div class="w-100 bg-black">
         <div class="w-100 w-90-ns pt2 mt2-ns center">
-            <div class="flex flex-wrap items-start pv2">
+            <div class="flex flex-wrap justify-between items-center pv2">
                 <div class="w-100 w-50-l tc tl-ns">  
                     <div class="w-90 pt4 tc">                      
                         <svg viewBox="0 0 543 239" version="1.1" preserveAspectRatio="xMinYMin meet">
@@ -115,23 +115,20 @@ page:
                             </g>
                         </svg>
                     </div>
-                    <div class="flex flex-wrap justify-between">
-                        <div>
-                            <div class="ph2 pb1 pt3 f3 f2-ns b contrastColor">{{ event.eventDate }}</div>
-                            <div class="ph2 pb3 f4 contrastColor">{{ event.startTime }}</div>
-                        </div>
-                        
-                        <div class="mv2">
-                            <button id="registerButton" onclick="showRegistration()" class="primaryBkg primaryColor b pointer grow f3 ph4 pv3 ba br4 b--transparent">
-                                Sign Up
-                            </button>
+                    <div>
+                        <div class="ph2 pb1 pt3 f3 f2-ns b contrastColor">{{ event.eventDate }}</div>
+                        <div class="ph2 pb3 f4 contrastColor">{{ event.startTime }}</div>
+                        <div class="w-100 tl pt4 pb3">
+                            <a class="ph3 pv2 no-underline pointer white bg-dark-green v-mid f3 ba br3 grow b--transparent center" target="_blank">
+                                Submit to the CFP
+                            </a>
                         </div>
                     </div>
-                    <div class="pa2 pa3-ns mv3 mv4-ns f3 f2-ns b primaryBkg primaryColor tc">One Day. One Track. One Community</div>
+                    <div class="pa2 pa3-ns mv3 mv4-ns f3 f2-ns b bg-white black tc">One Day. One Track. One Community</div>
                 </div>
-                <div class="w-100 w-50-l">             
-                    <div class="w-100 center">
-                        {% include "components/speakers.njk" %}
+                <div class="w-100 w-40-l">             
+                    <div class="w-100 center mt3 mt0-nss">
+                        {% include 'components/blm.njk' %}
                     </div>
                 </div>
             </div>
@@ -139,29 +136,6 @@ page:
         <div class="w-100">
             <div class="w-70-ns center mt1 pb4">
                 {% include "components/sponsors.njk" %}
-            </div>
-        </div>
-    </div>
-    <div class="w-100">
-        <div class="w-100 w-90-ns pt2 mt3-ns center">
-            <h2 class="f1 primaryColor tl">Stream</h2>
-            <div class="pa2 mw7-ns center">
-                <div class="center">
-                    {% include 'components/youtube.njk' %}
-                </div>
-                <div class="mt3">
-                    <span class="dark-gray f4">
-                        Join the conversation on <a href="{{ event.discord }}" target="_blank" class="no-underline pointer"><img class="dib w5 v-mid" src="/img/discord.svg" alt="Discord Logo"/></a>
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="w-100">
-        <div class="w-100 w-90-ns pt2 center">
-            <h2 class="f1 primaryColor tl">Schedule</h2>
-            <div>
-                {% include "components/schedule.njk" %}
             </div>
         </div>
     </div>
