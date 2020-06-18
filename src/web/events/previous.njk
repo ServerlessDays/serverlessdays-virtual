@@ -20,7 +20,7 @@ permalink: "events/{{ pastEvent.id | slug }}/"
                     </p>
 
                 </div>
-                <div class="flex flex-wrap items-center justify-between mt3 w-100 w-60-m w-50-l bg-dino ba br3 b--transparent shadow-5">
+                <div class="flex flex-wrap items-center justify-between mt3 w-100 w-60-m w-50-l bg-dino ba br3 b--transparent shadow-5 tc">
                     {% for sponsor in pastEvent.sponsors %}
                         <a class="no-underline pointer db dib-ns w-100 w-auto-ns center mv3" href="{{ sponsor.link }}" target="_blank">
                             <img class="pa2" src="{{ sponsor.img }}" alt="{{ sponsor.name }}"/>
@@ -38,7 +38,7 @@ permalink: "events/{{ pastEvent.id | slug }}/"
                             <div class="pt3">
                                 <img class="w4 h4 ba br3 b--transparent" src="{{ item.img }}" alt="Profile photo of {{ item.name }}"/>
                             </div>
-                            <div class="pt1">
+                            <div class="pt1 w-60 w-auto-ns">
                                 <div class="ph2 pt2 b f4">
                                     {{ item.talk }}
                                 </div>
