@@ -1,44 +1,44 @@
 [
     {
-        "img": "/img/forrest.jpg",
-        "name": "Forrest Brazeal",
-        "talk": "Code-wise, cloud-foolish",
-        "link": "/speakers/202004/forrest"
+        "img": "/img/202007/adrian.jpeg",
+        "name": "Adrian Cockroft",
+        "talk": "",
+        "link": "/speakers/202007/adrian"
     },
     {
-        "img": "/img/marcia.jpg",
-        "name": "Marcia Villalba",
-        "talk": "CI/CD for Serverless Applications",
-        "link": "/speakers/202004/marcia"
+        "img": "/img/202007/Linda.jpeg",
+        "name": "Linda Nichols",
+        "talk": "",
+        "link": "/speakers/202007/linda"
     },
     {
-        "img": "/img/kenRobbins.jpeg",
-        "name": "Ken Robbins",
-        "talk": "Humanity - powered by serverless",
-        "link": "/speakers/202004/kenRobbins"
+        "img": "/img/202007/rustem.jpg",
+        "name": "Rustem Feyzhakov",
+        "talk": "",
+        "link": "/speakers/202007/rustem"
     },
     {
-        "img": "/img/sheen.jpg",
-        "name": "Sheen Brisals",
-        "talk": "Shillings in Serverless",
-        "link": "/speakers/202004/sheen"
+        "img": "/img/202007/rich.jpg",
+        "name": "Rich Buggy",
+        "talk": "",
+        "link": "/speakers/202007/rich"
     },
     {
-        "img": "/img/yancui.jpg",
-        "name": "Yan Cui",
-        "talk": "Beware the potholes on the road to serverless",
-        "link": "/speakers/202004/yanCui"
+        "img": "/img/202007/will.jpeg",
+        "name": "Will Velida",
+        "talk": "",
+        "link": "/speakers/202007/will"
     },
     {
-        "img": "/img/brandonEvans.jpg",
-        "name": "Brandon Evans",
-        "talk": "Attacking Serverless Servers",
-        "link": "/speakers/202004/brandonEvans"
+        "img": "/img/202007/denis.jpg",
+        "name": "Denis Bauer",
+        "talk": "",
+        "link": "/speakers/202007/denis"
     },
     {
         "img": "/img/jeremy-daly.png",
         "name": "Jeremy Daly",
         "talk": "Event Host",
-        "link": "/speakers/202004/jeremyDaly"
+        "link": "/speakers/202007/jeremyDaly"
     }
 ]

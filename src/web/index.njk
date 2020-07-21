@@ -5,11 +5,16 @@ page:
     description: "ServerlessDays goes Virtual! Join us as we take ServerlessDays online so you can enjoy it from wherever you may be! The second iteration will be run during APAC and Americas hours."
 ---
 <div class="w-100">
-    <div class="w-100 bg-black">
-        <div class="w-100 w-90-ns pt2 mt2-ns center">
+    <div class="w-100">             
+        <div class="w-100 center mt0">
+            {% include 'components/blm.njk' %}
+        </div>
+    </div>
+    <div class="w-100">
+        <div class="w-100 w-90-ns center">
             <div class="flex flex-wrap justify-between items-center pv2">
                 <div class="w-100 w-50-l tc tl-ns">  
-                    <div class="w-90 pt4 tc center">                      
+                    <div class="w-90 tc center">                      
                         <svg viewBox="0 0 543 239" version="1.1" preserveAspectRatio="xMinYMin meet">
                             <defs>
                                 <filter x="-5.4%" y="-48.7%" width="111.0%" height="197.4%" filterUnits="objectBoundingBox" id="filter-1">
@@ -114,27 +119,53 @@ page:
                             </g>
                         </svg>
                     </div>
-                    <div>
-                        <div class="ph2 pb1 pt3 f3 f2-ns b contrastColor">{{ event.eventDate }}</div>
-                        <div class="ph2 pb3 f5 f4-ns contrastColor">{{ event.startTime }}</div>
-                        <div class="w-100 tc tl-ns pt4 pb3">
-                            <a class="ph3 pv2 b no-underline pointer white bg-dark-green v-mid f4 f3-ns ba br3 grow b--transparent center" href="{{ event.cfp }}" target="_blank">
-                                Submit to the CFP
-                            </a>
+                    <div class="pt4">
+                        <div class="ph2 pb1 pt3 f3 f2-ns b black">{{ event.eventDate }}</div>
+                        <div class="ph2 pb3 f5 f4-ns black">{{ event.startTime }}</div>
+                        <div class="w-100 tc tl-ns pt2 pb3">
+                            <button id="registerButton" onclick="showRegistration()" class="bg-black white b pointer grow f3 ph4 pv3 ba br4 b--transparent">
+                                Sign Up
+                            </button>
                         </div>
+                        <div class="pv2 pv3-ns f3 f2-ns b bg-white black tl">One Day. One Track. One Community</div>
                     </div>
-                    <div class="pa2 pa3-ns mv3 mv4-ns f3 f2-ns b bg-white black tc">One Day. One Track. One Community</div>
                 </div>
-                <div class="w-100 w-40-l">             
-                    <div class="w-100 center mt3 mt0-nss">
-                        {% include 'components/blm.njk' %}
+                
+                <div class="w-100 w-50-l">             
+                    <div class="w-100 center">
+                        {% include "components/speakers.njk" %}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-100">
-            <div class="w-70-ns center mt1 pb4 tc">
+        <div class="w-100 bg-black">
+            <div class="w-70-ns center pa2 tc">
                 {% include "components/sponsors.njk" %}
+            </div>
+        </div>
+<!--
+        <div class="w-100">
+            <div class="w-100 w-90-ns pt2 mt3-ns center">
+                <h2 class="f1 black tl">Stream</h2>
+                <div class="pa2 mw7-ns center">
+                    <div class="center">
+                        {% include 'components/youtube.njk' %}
+                    </div>
+                    <div class="mt3">
+                        <span class="dark-gray f4">
+                            Join the conversation on <a href="{{ event.discord }}" target="_blank" class="no-underline pointer"><img class="dib w5 v-mid" src="/img/discord.svg" alt="Discord Logo"/></a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+-->
+        <div class="w-100">
+            <div class="w-100 w-90-ns pt2 center">
+                <h2 class="f1 black tl">Schedule</h2>
+                <div>
+                    {% include "components/schedule.njk" %}
+                </div>
             </div>
         </div>
     </div>

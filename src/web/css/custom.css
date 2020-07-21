@@ -41,9 +41,27 @@
                 -30px -30px 60px #a4f76e;
 }
 
+.shadow-7 {
+    box-shadow: 0px 6px 10px rgba(0,0,0,0.9);
+}
+
 .hero-box-1 {
     -webkit-clip-path: polygon(100% 50%,100% 0,0% 0,0% 100%);
     clip-path: polygon(100% 50%,100% 0,0% 0,0% 100%);
+}
+
+.scheduleHeader::after {
+    content: '';
+    display: block;
+    height: 12px;
+    margin-top: -15;
+    margin-left: -5;
+    width: 50%;
+    background: #8cff8c;
+}
+
+.lumo-green {
+    color: #8cff8c;
 }
 
 .w-05 { width: 5% }
