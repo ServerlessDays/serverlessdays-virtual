@@ -1,48 +1,48 @@
 [
     {   
-        "startTime" : "9am PDT / 12pm EDT / 5pm BST / 6pm CEST",
+        "startTime" : "",
         "speaker": "Jeremy Daly",
-        "speakerURL": "/speakers/202004/jeremydaly/",
+        "speakerURL": "/speakers/202007/jeremydaly/",
         "sessionName": "Introductions"
     },
     {   
-        "startTime" : "9:05am PDT / 12:05pm EDT / 5:05pm BST / 6:05pm CEST",
-        "speaker": "Forrest Brazeal`    ",
-        "speakerURL": "/speakers/202004/forrest/",
-        "sessionName": "Code-wise, cloud-foolish"
+        "startTime" : "",
+        "speaker": "Adrian Cockroft`    ",
+        "speakerURL": "/speakers/202007/adrian/",
+        "sessionName": ""
     },
     {   
-        "startTime" : "9:50am PDT / 12:50am EDT / 5:50pm BST / 6:50pm CEST",
-        "speaker": "Sheen Brisals",
-        "speakerURL": "/speakers/202004/sheen/",
-        "sessionName": "Shillings in Serverless"
+        "startTime" : "",
+        "speaker": "Linda Nichols",
+        "speakerURL": "/speakers/202007/linda/",
+        "sessionName": "Serverless to Code-ess"
     },
     {   
-        "startTime" : "10:35am PDT / 1:35pm EDT / 6:35pm BST / 7:35pm CEST",
-        "speaker": "Marcia Villalba",
-        "speakerURL": "/speakers/202004/marcia/",
-        "sessionName": "CI/CD for Serverless Applications"
+        "startTime" : "",
+        "speaker": "Rustem Feyzhakov",
+        "speakerURL": "/speakers/202007/rustem/",
+        "sessionName": "Serverless for AI applications"
     },
     {   
-        "startTime" : "11:25am PDT / 2:25pm EDT / 7:25pm BST / 8:25pm CEST",
-        "speaker": "Brandon Evans",
-        "speakerURL": "/speakers/202004/brandonevans/",
-        "sessionName": "Attacking Serverless Servers: Reverse Engineering the AWS, Azure, and GCP Function Runtimes"
+        "startTime" : "",
+        "speaker": "Rich Buggy",
+        "speakerURL": "/speakers/202007/rich/",
+        "sessionName": "Single Table DynamoDB for AppSync"
     },
     {   
-        "startTime" : "12:10pm PDT / 3:10pm EDT / 8:10pm BST / 9:10pm CEST",
-        "speaker": "Yan Cui",
-        "speakerURL": "/speakers/202004/yancui/",
-        "sessionName": "Beware the potholes on the road to serverless"
+        "startTime" : "",
+        "speaker": "Will Velida",
+        "speakerURL": "/speakers/202007/will/",
+        "sessionName": "Building Event-driven applications using Azure Cosmos DB and Azure Functions"
     },
     {   
-        "startTime" : "1:05pm PDT / 4:05pm EDT / 9:05pm BST / 10:05pm CEST",
-        "speaker": "Ken Robbins",
-        "speakerURL": "/speakers/202004/kenrobbins/",
-        "sessionName": "Humanity - powered by Serverless"
+        "startTime" : "",
+        "speaker": "Denis Bauer",
+        "speakerURL": "/speakers/202007/denis/",
+        "sessionName": "Serverless in the fight against COVID-19"
     },
     {   
-        "startTime" : "1:45pm PDT / 4:45pm EDT / 9:45pm BST / 10:45pm CEST",
+        "startTime" : "",
         "speaker": "ServerlessDays Virtual Team",
         "speakerURL": "/",
         "sessionName": "Closing Remarks"
