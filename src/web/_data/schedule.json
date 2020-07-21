@@ -6,10 +6,10 @@
         "sessionName": "Introductions"
     },
     {   
-        "startTime" : "Opening Keynote",
+        "startTime" : "",
         "speaker": "Adrian Cockroft`    ",
         "speakerURL": "/speakers/202007/adrian/",
-        "sessionName": ""
+        "sessionName": "Opening Keynote"
     },
     {   
         "startTime" : "",
