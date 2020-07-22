@@ -2,7 +2,7 @@
 layout: speaker202007.njk
 page:
     title: ServerlessDays Virtual - Linda Nichols
-    description: 'Serverless to Code-ess'
+    description: 'Serverless to Code-less'
     url: https://virtual.serverlessdays.io/speakers/202007/linda
     image: https://virtual.serverlessdays.io/img/og/202007/2.png
 speaker:
@@ -19,7 +19,7 @@ speaker:
         icon: /img/linkedin_white.png     
 ---
 
-## Serverless to Code-ess
+## Serverless to Code-less
 
 The future will not demand more code, it will demand faster iteration and innovation. Writing new code is time-consuming, expensive, and every line created is a potential bug or vulnerability. In order to compete, developers must be engineers, not coders. Engineers don’t create the individual blocks, but they know to arrange building blocks together in a way to produce better quality and more reliable products. For serverless applications, the basic building block is FaaS supported by other fully-managed services. 
 
