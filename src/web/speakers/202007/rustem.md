@@ -1,12 +1,12 @@
 ---
 layout: speaker202007.njk
 page:
-    title: ServerlessDays Virtual - Rustem Feyzhakov
+    title: ServerlessDays Virtual - Rustem Feyzkhanov
     description: 'Serverless for AI applications'
     url: https://virtual.serverlessdays.io/speakers/202007/rustem
     image: https://virtual.serverlessdays.io/img/202007/og/8.png
 speaker:
-    name: Rustem Feyzhakov
+    name: Rustem Feyzkhanov
     title: 'Machine Learning Engineer - Instrumental'
     bio: 'Rustem Feyzkhanov is a machine learning engineer at Instrumental, where he creates analytical models for the manufacturing industry. Rustem is passionate about serverless infrastructure (and AI deployments on it) and is the author of the course and book "Serverless Deep Learning with TensorFlow and AWS Lambda" and "Practical Deep Learning on the Cloud". Also he is a main contributor to open source repository for serverless packages https://github.com/ryfeus/lambda-packs. '
     img: /img/202007/rustem.jpg
