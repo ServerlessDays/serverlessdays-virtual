@@ -18,31 +18,31 @@
         "sessionName": "Serverless to Code-less"
     },
     {   
-        "startTime" : "5:50pm PDT (27th) / 8:50pm EDT (27th) / 1:50am BST / 9:50am JST / 10:50am AEST",
+        "startTime" : "5:40pm PDT (27th) / 8:40pm EDT (27th) / 1:40am BST / 9:40am JST / 10:40am AEST",
         "speaker": "Rustem Feyzkhanov",
         "speakerURL": "/speakers/202007/rustem/",
         "sessionName": "Serverless for AI applications"
     },
     {   
-        "startTime" : "6:45pm PDT (27th) / 9:45pm EDT (27th) / 2:45am BST / 10:45am JST / 11:45am AEST",
+        "startTime" : "6:25pm PDT (27th) / 9:25pm EDT (27th) / 2:25am BST / 10:25am JST / 11:25am AEST",
         "speaker": "Rich Buggy",
         "speakerURL": "/speakers/202007/rich/",
         "sessionName": "Single Table DynamoDB for AppSync"
     },
     {   
-        "startTime" : "7:35pm PDT (27th) / 10:35pm EDT (27th) / 3:35am BST / 11:35am JST / 12:35pm AEST",
+        "startTime" : "7:00pm PDT (27th) / 10:00pm EDT (27th) / 3:00am BST / 11:00am JST / 12:00pm AEST",
         "speaker": "Will Velida",
         "speakerURL": "/speakers/202007/will/",
         "sessionName": "Building Event-driven applications using Azure Cosmos DB and Azure Functions"
     },
     {   
-        "startTime" : "8:25pm PDT (27th) / 11:25pm EDT (27th) / 4:25am BST / 12:25pm JST / 1:25pm AEST",
+        "startTime" : "7:50pm PDT (27th) / 10:50pm EDT (27th) / 3:50am BST / 11:50pm JST / 12:50pm AEST",
         "speaker": "Denis Bauer",
         "speakerURL": "/speakers/202007/denis/",
         "sessionName": "Serverless in the fight against COVID-19"
     },
     {   
-        "startTime" : "9pm PDT (27th) / 12am EDT (27th) / 5am BST / 1pm JST / 2pm AEST",
+        "startTime" : "8:20pm PDT (27th) / 11:20pm EDT (27th) / 4:20am BST / 12:20am JST / 1:20pm AEST",
         "speaker": "ServerlessDays Virtual Team",
         "speakerURL": "/",
         "sessionName": "Closing Remarks"
