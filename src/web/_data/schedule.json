@@ -1,48 +1,48 @@
 [
     {   
-        "startTime" : "",
+        "startTime" : "4pm PDT (27th) / 7pm EDT (27th) / 12am BST / 8am JST / 9am AEST",
         "speaker": "Jeremy Daly",
         "speakerURL": "/speakers/202007/jeremydaly/",
         "sessionName": "Introductions"
     },
     {   
-        "startTime" : "",
+        "startTime" : "4:10pm PDT (27th) / 7:10pm EDT (27th) / 12:10am BST / 8:10am JST / 9:10am AEST",
         "speaker": "Adrian Cockroft`    ",
         "speakerURL": "/speakers/202007/adrian/",
         "sessionName": "Opening Keynote"
     },
     {   
-        "startTime" : "",
+        "startTime" : "5pm PDT (27th) / 8pm EDT (27th) / 1am BST / 9am JST / 10am AEST",
         "speaker": "Linda Nichols",
         "speakerURL": "/speakers/202007/linda/",
         "sessionName": "Serverless to Code-less"
     },
     {   
-        "startTime" : "",
+        "startTime" : "5:50pm PDT (27th) / 8:50pm EDT (27th) / 1:50am BST / 9:50am JST / 10:50am AEST",
         "speaker": "Rustem Feyzkhanov",
         "speakerURL": "/speakers/202007/rustem/",
         "sessionName": "Serverless for AI applications"
     },
     {   
-        "startTime" : "",
+        "startTime" : "6:45pm PDT (27th) / 9:45pm EDT (27th) / 2:45am BST / 10:45am JST / 11:45am AEST",
         "speaker": "Rich Buggy",
         "speakerURL": "/speakers/202007/rich/",
         "sessionName": "Single Table DynamoDB for AppSync"
     },
     {   
-        "startTime" : "",
+        "startTime" : "7:35pm PDT (27th) / 10:35pm EDT (27th) / 3:35am BST / 11:35am JST / 12:35pm AEST",
         "speaker": "Will Velida",
         "speakerURL": "/speakers/202007/will/",
         "sessionName": "Building Event-driven applications using Azure Cosmos DB and Azure Functions"
     },
     {   
-        "startTime" : "",
+        "startTime" : "8:25pm PDT (27th) / 11:25pm EDT (27th) / 4:25am BST / 12:25pm JST / 1:25pm AEST",
         "speaker": "Denis Bauer",
         "speakerURL": "/speakers/202007/denis/",
         "sessionName": "Serverless in the fight against COVID-19"
     },
     {   
-        "startTime" : "",
+        "startTime" : "9pm PDT (27th) / 12am EDT (27th) / 5am BST / 1pm JST / 2pm AEST",
         "speaker": "ServerlessDays Virtual Team",
         "speakerURL": "/",
         "sessionName": "Closing Remarks"
