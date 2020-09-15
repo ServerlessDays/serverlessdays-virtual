@@ -15,6 +15,17 @@
 .tertiaryContrastColor { color: #1e656d}
 .tertiaryContrastBkg { background: #ffffff}
 
+.scroll-bg {
+    -webkit-animation-name: scrollLarge;
+    animation-name: scrollLarge;
+    -webkit-animation-duration: 35s;
+    animation-duration: 35s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
 .bg-gradient-teal {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,255,229,1) 10%, rgba(130,196,87,1) 50%,rgba(240,255,229,1) 90%,rgba(255,255,255,1) 100%);
@@ -92,6 +103,7 @@
     .w-12-ns { width: 12.5% }
     .w-05-ns { width: 5% }
     .shadow-6-ns { box-shadow: 0px 0px 24px 24px rgba(0, 0, 0, 0.2); }
+    .hero-clip-ns {clip-path: polygon(33% 0, 100% 0, 100% 100%, 0% 100%);}
 }
 
 @media screen and (min-width: 60em) {

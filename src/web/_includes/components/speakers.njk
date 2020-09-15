@@ -1,14 +1,18 @@
-<div class="ma2 ma0-ns center w-100">
-    <div class="w-100 ph2 ph0-ns tc tl-ns">
-        <div class="pt2 pt3-ns flex flex-wrap justify-center">
-            {% for speaker in speakers %}
-                <a class="dt w45 h45 no-underline ma3 pa0 shadow-7 link bn br3 b--transparent hide-child cover bg-center" style="background: url({{ speaker.img }})" href="{{ speaker.link }}" alt="{{ speaker.name }}" >
-                    <div class="white dtc v-mid w-100 h-100 child bg-black-40 tc f4 pa1">
-                        <p class="b">{{ speaker.name }}</p>
-                        <p>{{ speaker.talk }}</p>
-                    </div>
-                </a>
-            {% endfor %}
+<div class="w-100 bg-black white pv5">
+    {% for item in speakers %}
+        <div class="pb3 mh3 mb4 w-100 w-60-ns center">
+            <img class="w45 h45 ba br3 b--transparent dib" src="{{ item.img }}" alt="Profile photo of {{ item.name }}"/>
+            
+            <div class="dib v-top">
+                <div class="ph2 pb1 b f3 mw7">
+                    {{ item.talk }}
+                </div>
+                <div class="ph2 pv1">
+                    <a href="{{ item.link }}" class="no-underline white pointer f4">
+                        {{ item.name }}
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
+    {% endfor %}
 </div>

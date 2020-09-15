@@ -24,8 +24,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="icon" href="{{ event.favicon }}" type="image/x-icon"/>
     </head>
-    <body class="avenir w-100">
+    <body class="avenir w-100 bg-dark-gray white">
       {% include 'components/register.njk'%}
+      <div class="w-100 center mt0">
+          {% include 'components/blm.njk' %}
+      </div>
       {% include 'components/navBar.njk' %}
         {{ content | safe }}
     </body>
