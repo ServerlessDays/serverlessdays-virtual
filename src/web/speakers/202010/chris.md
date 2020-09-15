@@ -4,7 +4,7 @@ page:
     title: ServerlessDays Virtual - Chris Munns
     description: 'Six Years of Serverless, or why I’ve forgotten how to SSH'
     url: https://virtual.serverlessdays.io/speakers/202010/chris
-    image: https://virtual.serverlessdays.io/img/202007/og/4.png
+    image: https://virtual.serverlessdays.io/img/202010/og/chris_munns_card.png
 speaker:
     name: Chris Munns
     title: 'Principal Developer Advocate - Serverless - AWS'
