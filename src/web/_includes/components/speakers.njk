@@ -1,14 +1,17 @@
-<div class="w-100 bg-black white pv5">
+<div class="w-100 bg-white dark-gray pv5">
     {% for item in speakers %}
-        <div class="pb3 mh3 mb4 w-100 w-60-ns center">
-            <img class="w45 h45 ba br3 b--near-white bw1 dib" src="{{ item.img }}" alt="Profile photo of {{ item.name }}"/>
-            
-            <div class="dib v-top">
+        <div class="pb3 mh3 mb4 w-100 w-60-ns center flex flex-wrap justify-center">
+            <div>
+                <a href="{{ item.link }}" class="no-underline dark-gray pointer">
+                    <img class="w45 h45 ba br3 b--transparent" src="{{ item.img }}" alt="Profile photo of {{ item.name }}"/>
+                </a>
+            </div>
+            <div class="dib-ns v-top tc tl-ns">
                 <div class="ph2 pb1 b f3 mw7">
                     {{ item.talk }}
                 </div>
                 <div class="ph2 pv1">
-                    <a href="{{ item.link }}" class="no-underline white pointer f4">
+                    <a href="{{ item.link }}" class="no-underline dark-gray pointer f4 tc tl-ns">
                         {{ item.name }}
                     </a>
                 </div>

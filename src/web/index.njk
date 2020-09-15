@@ -7,9 +7,9 @@ page:
 ---
 <div class="w-100">
     <div class="flex flex-wrap justify-between items-start">
-        <div class="w-100 w-30-m w-50-l tc tl-ns">  
+        <div class="w-100 w-40-m w-50-l tc tl-ns">  
             
-            <div class="mh2 ml4-m ml5-l mw5 mw6-ns">                     
+            <div class="mh2 ml4-m ml5-l mw6 mt3 mt0-ns">                     
                 <svg viewBox="0 0 427 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  preserveAspectRatio="xMinYMin meet">
                     <title>ServerlessDays Virtual</title>
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -51,16 +51,14 @@ page:
                 </svg>
             </div>
             
-            <div class="mh2 ml4-m ml5-l mt5 pt5">
-                <div class="">
-                    <div class="ph2 pb1 pt3 f4 f3-ns b white">{{ event.eventDate }}</div>
-                    <div class="ph2 pb3 f5 f45-ns white">{{ event.startTime }}</div>
-                    <div class="pv2 pv3-ns f3 f2-ns b tl">One Day. One Track. One Community</div>
-                    <div class="w-100 tc tl-ns pt2 pb3">
-                        <button id="registerButton" onclick="showRegistration()" class="bg-dark-green white shadow-5 pointer grow f4 ph4 pv3 ba br3 b--transparent">
-                            Join the mailing list!
-                        </button>
-                    </div>
+            <div class="mh2 ml4-m ml5-l mt3 mt5-l pt5-l">
+                <div class="ph2 pb1 pt3 f4 f3-l b white">{{ event.eventDate }}</div>
+                <div class="ph2 pb3 f5 f45-l white">{{ event.startTime }}</div>
+                <div class="pv2 pv3-ns f3 f2-l b">One Day. One Track. One Community</div>
+                <div class="w-100 tc tl-ns pt2 pb3">
+                    <button id="registerButton" onclick="showRegistration()" class="bg-dark-green white shadow-5 pointer grow f5 f4-l ph4 pv3 ba br3 b--transparent">
+                        Join the mailing list!
+                    </button>
                 </div>
             </div>
             <div class="mh2 ml4-m ml5-l w-100">
@@ -70,12 +68,14 @@ page:
             </div>
         </div>
         
-        <div class="w-100 w-70-m w-50-l hero-clip-ns ma0 pa0">             
+        <div class="dn db-ns w-100 w-60-m w-50-l hero-clip-ns ma0 pa0">             
             <img class="cover ma0 pa0" src="/img/paris_train_station.jpg" alt="Paris train station"/>
         </div>
     </div>
-    <div class="w-100 bg-black">
-        <h2 class="tc pt5 pb0 mv0 f2 f2-m f1-l white">Speakers</h2>
+    <div class="w-100 bg-white dark-gray">
+        <div class="mh2 ml4-m ml5-l">
+            <h2 class="pt5 pb0 mv0 f2 f1-l dark-gray tc">Speakers</h2>
+        </div>
         {% include 'components/speakers.njk' %}
     </div>
 
