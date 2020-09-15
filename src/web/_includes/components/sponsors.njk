@@ -1,7 +1,7 @@
-<div class="flex flex-wrap items-center justify-between">
+<div class="flex flex-wrap items-center">
     {% for sponsor in sponsors %}
-        <a class="no-underline pointer db dib-ns w-100 w-auto-ns center mv3" href="{{ sponsor.link }}">
-            <img class="pr2 pv2" src="{{ sponsor.img }}" alt="{{ sponsor.name }}"/>
+        <a class="no-underline pointer db dib-ns w-100 w-auto-ns center" href="{{ sponsor.link }}">
+            <img class="pa3" src="{{ sponsor.img }}" alt="{{ sponsor.name }}"/>
         </a>
     {% endfor %}
 </div>

@@ -1,44 +1,8 @@
 [
     {
-        "img": "/img/202007/adrian.jpeg",
-        "name": "Adrian Cockroft",
-        "talk": "",
-        "link": "/speakers/202007/adrian"
-    },
-    {
-        "img": "/img/202007/Linda.jpeg",
-        "name": "Linda Nichols",
-        "talk": "",
-        "link": "/speakers/202007/linda"
-    },
-    {
-        "img": "/img/202007/rustem.jpg",
-        "name": "Rustem Feyzkhanov",
-        "talk": "",
-        "link": "/speakers/202007/rustem"
-    },
-    {
-        "img": "/img/202007/rich.jpg",
-        "name": "Rich Buggy",
-        "talk": "",
-        "link": "/speakers/202007/rich"
-    },
-    {
-        "img": "/img/202007/will.jpeg",
-        "name": "Will Velida",
-        "talk": "",
-        "link": "/speakers/202007/will"
-    },
-    {
-        "img": "/img/202007/denis.jpg",
-        "name": "Denis Bauer",
-        "talk": "",
-        "link": "/speakers/202007/denis"
-    },
-    {
-        "img": "/img/jeremy-daly.png",
-        "name": "Jeremy Daly",
-        "talk": "Event Host",
-        "link": "/speakers/202007/jeremyDaly"
+        "img": "/img/202010/chris_munns.jpg",
+        "name": "Chris Munns",
+        "talk": "Six Years of Serverless, or why I’ve forgotten how to SSH",
+        "link": "/speakers/202010/chris"
     }
 ]
