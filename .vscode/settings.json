@@ -9,8 +9,7 @@
         "statusBar.background": "#2551b2",
         "statusBarItem.hoverBackground": "#3567d5",
         "statusBar.foreground": "#e7e7e7",
-        "activityBar.activeBackground": "#3567d5",
-        "statusBar.border": "#2551b2"
+        "activityBar.activeBackground": "#3567d5"
     },
     "editor.formatOnSave": false,
     "peacock.affectActivityBar": true,

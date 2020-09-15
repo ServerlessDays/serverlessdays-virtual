@@ -34,11 +34,11 @@ permalink: "events/{{ pastEvent.id | slug }}/"
         <div class="w-100 w-90-m w-80-l center">
             {% for item in pastEvent.speakers %}
                     <div class="lh-copy dark-gray ma3 flex flex-wrap justify-between">
-                        <div class="bt b--black bw2 pb3 flex flex-wrap">
+                        <div class="bt b--black bw2 pb3 flex flex-wrap w-100 w-50-ns">
                             <div class="pt3">
                                 <img class="w4 h4 ba br3 b--transparent" src="{{ item.img }}" alt="Profile photo of {{ item.name }}"/>
                             </div>
-                            <div class="pt1 w-60 w-auto-ns">
+                            <div class="pt1 w-75">
                                 <div class="ph2 pt2 b f4">
                                     {{ item.talk }}
                                 </div>

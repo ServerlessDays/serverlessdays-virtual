@@ -1,90 +1,182 @@
-[ {
-    "id": "april-2020",
-    "name": "April 2020",
-    "description": "Inaugral ServerlessDays Virtual, featuring talks from Forrest Brazzeal, Sheen Brisals, Marcia Villabla, Brandon Evans, Yan Cui and Ken Robbins. Hosted by Jeremy Daly!",
-    "event" : {
-        "eventDate": "29 April 2020",
-        "startTime": "9am PST / 12pm EDT / 5pm BST / 6pm CEST",
-        "location": "",
-        "twitter": "@ServerlessDaysV",
-        "favicon": "/static/favicon.ico",
-        "cfp": "https://forms.gle/7SNAccrTYFHaQpPt8",
-        "youtube": {
-            "id": "H4WoQd2yVJQ",
-            "url": "https://www.youtube.com/watch?v=H4WoQd2yVJQ&feature=youtu.be"
+[ 
+    {
+        "id": "april-2020",
+        "name": "April 2020",
+        "description": "Inaugral ServerlessDays Virtual, featuring talks from Forrest Brazzeal, Sheen Brisals, Marcia Villabla, Brandon Evans, Yan Cui and Ken Robbins. Hosted by Jeremy Daly!",
+        "event" : {
+            "eventDate": "29 April 2020",
+            "startTime": "9am PST / 12pm EDT / 5pm BST / 6pm CEST",
+            "location": "",
+            "twitter": "@ServerlessDaysV",
+            "favicon": "/static/favicon.ico",
+            "cfp": "https://forms.gle/7SNAccrTYFHaQpPt8",
+            "youtube": {
+                "id": "H4WoQd2yVJQ",
+                "url": "https://www.youtube.com/watch?v=H4WoQd2yVJQ&feature=youtu.be"
+            },
+            "discord": "https://discord.gg/4gEr9Gd"
         },
-        "discord": "https://discord.gg/4gEr9Gd"
+        "sponsors": [
+            {
+                "name":"Epsagon",
+                "link": "https://epsagon.com",
+                "img":"/img/Epsagon.png"
+            },
+            {
+                "name":"Stackery",
+                "link": "https://stackery.io",
+                "img":"/img/Stackery.png"
+            },
+            {
+                "name":"Senzo",
+                "link": "https://senzo.io",
+                "img":"/img/Senzo.png"
+            },
+            {
+                "name":"Thundra",
+                "link": "https://thundra.io",
+                "img":"/img/Thundra.png"
+            }
+        ],
+        "speakers": [
+            {
+                "img": "/img/jeremy-daly.png",
+                "name": "Jeremy Daly",
+                "talk": "Event Host",
+                "link": "/speakers/202004/jeremyDaly"
+            },
+            {
+                "img": "/img/forrest.jpg",
+                "name": "Forrest Brazeal",
+                "talk": "Code-wise, cloud-foolish",
+                "link": "/speakers/202004/forrest",
+                "youtube":  "H4WoQd2yVJQ?start=323"
+            },
+            {
+                "img": "/img/sheen.jpg",
+                "name": "Sheen Brisals",
+                "talk": "Shillings in Serverless",
+                "link": "/speakers/202004/sheen",
+                "youtube":  "H4WoQd2yVJQ?start=2437"
+            },
+            {
+                "img": "/img/marcia.jpg",
+                "name": "Marcia Villalba",
+                "talk": "CI/CD for Serverless Applications",
+                "link": "/speakers/202004/marcia",
+                "youtube":  "H4WoQd2yVJQ?start=5035"
+            },
+            {
+                "img": "/img/brandonEvans.jpg",
+                "name": "Brandon Evans",
+                "talk": "Attacking Serverless Servers",
+                "link": "/speakers/202004/brandonEvans",
+                "youtube":  "H4WoQd2yVJQ?start=7847"
+            },
+            {
+                "img": "/img/yancui.jpg",
+                "name": "Yan Cui",
+                "talk": "Beware the potholes on the road to serverless",
+                "link": "/speakers/202004/yanCui",
+                "youtube":  "H4WoQd2yVJQ?start=10591"
+            },
+            {
+                "img": "/img/kenRobbins.jpeg",
+                "name": "Ken Robbins",
+                "talk": "Humanity - powered by serverless",
+                "link": "/speakers/202004/kenRobbins",
+                "youtube":  "H4WoQd2yVJQ?start=13412"
+            }
+        ]
     },
-    "sponsors": [
-        {
-            "name":"Epsagon",
-            "link": "https://epsagon.com",
-            "img":"/img/Epsagon.png"
+    {
+        "id": "july-2020",
+        "name": "July 2020",
+        "description": "APAC 2020 Edition of ServerlessDays Virtual, featuring talks from Adrian Cockcroft, Linda Nichols, Rustem Feyzkhanov, Rich Buggy, Will Velida and Denis Bauer. Hosted by Jeremy Daly!",
+        "event" : {
+            "eventDate": "28 October 2020",
+            "startTime": "2pm CET / 1pm GMT / 9am EDT / 5am PDT",
+            "location": "",
+            "twitter": "@ServerlessDaysV",
+            "favicon": "/static/favicon.ico",
+            "cfp": "https://forms.gle/7SNAccrTYFHaQpPt8",
+            "youtube": {
+                "id": "H4WoQd2yVJQ",
+                "url": "https://www.youtube.com/watch?v=H4WoQd2yVJQ&feature=youtu.be"
+            },
+            "discord": "https://discord.gg/4gEr9Gd"
         },
-        {
-            "name":"Stackery",
-            "link": "https://stackery.io",
-            "img":"/img/Stackery.png"
-        },
-        {
-            "name":"Senzo",
-            "link": "https://senzo.io",
-            "img":"/img/Senzo.png"
-        },
-        {
-            "name":"Thundra",
-            "link": "https://thundra.io",
-            "img":"/img/Thundra.png"
-        }
-    ],
-    "speakers": [
-        {
-            "img": "/img/jeremy-daly.png",
-            "name": "Jeremy Daly",
-            "talk": "Event Host",
-            "link": "/speakers/202004/jeremyDaly"
-        },
-        {
-            "img": "/img/forrest.jpg",
-            "name": "Forrest Brazeal",
-            "talk": "Code-wise, cloud-foolish",
-            "link": "/speakers/202004/forrest",
-            "youtube":  "H4WoQd2yVJQ?start=323"
-        },
-        {
-            "img": "/img/sheen.jpg",
-            "name": "Sheen Brisals",
-            "talk": "Shillings in Serverless",
-            "link": "/speakers/202004/sheen",
-            "youtube":  "H4WoQd2yVJQ?start=2437"
-        },
-        {
-            "img": "/img/marcia.jpg",
-            "name": "Marcia Villalba",
-            "talk": "CI/CD for Serverless Applications",
-            "link": "/speakers/202004/marcia",
-            "youtube":  "H4WoQd2yVJQ?start=5035"
-        },
-        {
-            "img": "/img/brandonEvans.jpg",
-            "name": "Brandon Evans",
-            "talk": "Attacking Serverless Servers",
-            "link": "/speakers/202004/brandonEvans",
-            "youtube":  "H4WoQd2yVJQ?start=7847"
-        },
-        {
-            "img": "/img/yancui.jpg",
-            "name": "Yan Cui",
-            "talk": "Beware the potholes on the road to serverless",
-            "link": "/speakers/202004/yanCui",
-            "youtube":  "H4WoQd2yVJQ?start=10591"
-        },
-        {
-            "img": "/img/kenRobbins.jpeg",
-            "name": "Ken Robbins",
-            "talk": "Humanity - powered by serverless",
-            "link": "/speakers/202004/kenRobbins",
-            "youtube":  "H4WoQd2yVJQ?start=13412"
-        }
-    ]
-}]
+        "sponsors": [
+            {
+                "name":"Epsagon",
+                "link": "https://epsagon.com",
+                "img":"/img/Epsagon.png"
+            },
+            {
+                "name":"Stackery",
+                "link": "https://stackery.io",
+                "img":"/img/Stackery.png"
+            },
+            {
+                "name":"Senzo",
+                "link": "https://senzo.io",
+                "img":"/img/Senzo.png"
+            },
+            {
+                "name":"Thundra",
+                "link": "https://thundra.io",
+                "img":"/img/Thundra.png"
+            }
+        ],
+        "speakers": [
+            {
+                "img": "/img/202007/adrian.jpeg",
+                "name": "Adrian Cockroft",
+                "talk": "Modern App Development",
+                "link": "/speakers/202007/adrian",
+                "youtube": "K1KOHsrVzLo?start=453"
+            },
+            {
+                "img": "/img/202007/Linda.jpeg",
+                "name": "Linda Nichols",
+                "talk": "Serverless to Code-less",
+                "link": "/speakers/202007/linda",
+                "youtube": "K1KOHsrVzLo?start=3721"
+            },
+            {
+                "img": "/img/202007/rustem.jpg",
+                "name": "Rustem Feyzkhanov",
+                "talk": "Serverless for AI Applications",
+                "link": "/speakers/202007/rustem",
+                "youtube": "K1KOHsrVzLo?start=6109"
+            },
+            {
+                "img": "/img/202007/rich.jpg",
+                "name": "Rich Buggy",
+                "talk": "Single Table DynamoDB for AppSync",
+                "link": "/speakers/202007/rich",
+                "youtube": "K1KOHsrVzLo?start=8828"
+            },
+            {
+                "img": "/img/202007/will.jpeg",
+                "name": "Will Velida",
+                "talk": "Building Event-driven applications using Azure Cosmos DB and Azure Functions",
+                "link": "/speakers/202007/will",
+                "youtube": "K1KOHsrVzLo?start=10897"
+            },
+            {
+                "img": "/img/202007/denis.jpg",
+                "name": "Denis Bauer",
+                "talk": "Serverless in the fight against COVID-19",
+                "link": "/speakers/202007/denis",
+                "youtube": "K1KOHsrVzLo?start=13223"
+            },
+            {
+                "img": "/img/jeremy-daly.png",
+                "name": "Jeremy Daly",
+                "talk": "Event Host",
+                "link": "/speakers/202007/jeremyDaly"
+            }
+        ]
+    }
+]
