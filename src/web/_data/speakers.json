@@ -4,5 +4,35 @@
         "name": "Chris Munns",
         "talk": "Six Years of Serverless, or why I’ve forgotten how to SSH",
         "link": "/speakers/202010/chris"
+    },
+    {
+        "img": "/img/202010/alexandra_abbas.jpg",
+        "name": "Alexandra Abbas",
+        "talk": "Creating a fully serverless workflow management platform — an experiment on Google Cloud",
+        "link": "/speakers/202010/alexandra"
+    },
+    {
+        "img": "/img/202010/simona_cotin.jpg",
+        "name": "Simona Cotin",
+        "talk": "Serverless at the end of the Universe",
+        "link": "/speakers/202010/simona"
+    },
+    {
+        "img": "/img/202010/nicole_yip.jpg",
+        "name": "Nicole Yip",
+        "talk": "How we are continuously improving our serverless standards at The LEGO Group",
+        "link": "/speakers/202010/nicole"
+    },
+    {
+        "img": "/img/202010/hannah_tucker_mclellan.jpg",
+        "name": "Hannah Tucker McLellan",
+        "talk": "How we are continuously improving our serverless standards at The LEGO Group",
+        "link": "/speakers/202010/hannah"
+    },
+    {
+        "img": "/img/202010/slobodan_stojanovic.jpg",
+        "name": "Slobodan Stojanović",
+        "talk": "The power of serverless GraphQL with AppSync",
+        "link": "/speakers/202010/slobodan"
     }
 ]

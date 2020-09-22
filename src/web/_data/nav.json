@@ -18,11 +18,5 @@
     "key": "cocNav",
     "name": "Code of Conduct",
     "path": "/coc/"
-  },
-  {
-    "key": "CFPNav",
-    "name": "CFP",
-    "path": "https://forms.gle/7SNAccrTYFHaQpPt8",
-    "cta": true
   }
 ]

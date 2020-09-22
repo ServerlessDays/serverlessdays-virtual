@@ -26,12 +26,12 @@
     "jsdom": "^16.4.0",
     "markdown-it": "^11.0.1",
     "node-fetch": "^3.0.0-beta.5",
-    "purgecss": "^2.3.0"
+    "purgecss": "^3.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^15.0.0",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "rollup": "^2.26.11"
+    "rollup": "^2.28.1"
   }
 }
