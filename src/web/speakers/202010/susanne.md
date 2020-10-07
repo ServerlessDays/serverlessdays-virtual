@@ -10,7 +10,7 @@ speaker:
     title: 'Independent Tech Consultant'
     bio: "Susanne Kaiser is an independent Tech Consultant from Hamburg, Germany,  supporting organizations of various sizes to build and run software products from idea to production.  Susanne was previously working as a startup CTO.\r\nShe has a background in computer sciences and experience in software development & architecture for more than 17 years and regularly presents at international tech conferences.
 "
-    img: /img/202010/slobodan_stojanovic.jpg
+    img: /img/202010/susanne_kaiser.jpg
     social:
     -   name: Twitter
         link: https://twitter.com/suksr

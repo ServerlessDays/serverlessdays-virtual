@@ -6,6 +6,12 @@
         "link": "/speakers/202010/chris"
     },
     {
+        "img": "/img/202010/susanne_kaiser.jpg",
+        "name": "Susanne Kaiser",
+        "talk": "Designing a Serverless Application with Domain Driven Design",
+        "link": "/speakers/202010/susanne"
+    },
+    {
         "img": "/img/202010/alexandra_abbas.jpg",
         "name": "Alexandra Abbas",
         "talk": "Creating a fully serverless workflow management platform — an experiment on Google Cloud",
@@ -34,11 +40,5 @@
         "name": "Slobodan Stojanović",
         "talk": "The power of serverless GraphQL with AppSync",
         "link": "/speakers/202010/slobodan"
-    },
-    {
-        "img": "/img/202010/susanne_kaiser.jpg",
-        "name": "Susanne Kaiser",
-        "talk": "Designing a Serverless Application with Domain Driven Design",
-        "link": "/speakers/202010/susanne"
     }
 ]
