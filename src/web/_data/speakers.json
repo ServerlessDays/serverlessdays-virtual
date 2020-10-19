@@ -18,10 +18,10 @@
         "link": "/speakers/202010/alexandra"
     },
     {
-        "img": "/img/202010/simona_cotin.jpg",
-        "name": "Simona Cotin",
-        "talk": "Serverless at the end of the Universe",
-        "link": "/speakers/202010/simona"
+        "img": "/img/202010/marie_hoeger.jpg",
+        "name": "Marie Hoeger",
+        "talk": "Serverless under the hood with Azure Functions",
+        "link": "/speakers/202010/marie"
     },
     {
         "img": "/img/202010/nicole_yip.jpg",
@@ -40,5 +40,11 @@
         "name": "Slobodan Stojanović",
         "talk": "The power of serverless GraphQL with AppSync",
         "link": "/speakers/202010/slobodan"
+    },
+    {
+        "img": "/img/jeremy-daly.png",
+        "name": "Jeremy Daly",
+        "talk": "Event Host",
+        "link": "/speakers/202010/jeremyDaly"
     }
 ]
