@@ -1,17 +1,26 @@
-<div class="w-100 w-90-m w-80-ns flex flex-wrap center white">
+<div class="w-100 w-60-m w-50-l dt center white">
     {% for item in schedule %}
-        <a href="{{ item.speakerURL }}" class="no-underline primaryColor pointer w-100 w-50-m w-30-l">
-            <div class="lh-copy dark-gray ma3">
-                <div class="ph2 pt2 b f4">
+        <div class="dt-row">
+            <div class="dtc ph2 pv3 b dark-green v-mid w-20">
+                {% for start in item.startTime %}
+                    <div class="pv1">
+                        {{ start }}
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="dtc dark-gray pv3 v-mid w-80">
+                <a class="db no-underline pv1 black pl2 pr4 pt2 b f3 pointer" href="{{ item.speakers[0].url }}">
                     {{ item.sessionName }}
-                </div>
-                <div class="ph2 pv1">
-                    {{ item.speaker }}
-                </div>
-                <div class="ph2 pv1 green">
-                    {{ item.startTime }}
+                </a>
+                <div class="db ph2 pv1">
+                    {% for speaker in item.speakers %}
+                        <a class="db no-underline pv1 black b pointer" href="{{ speaker.url }}">
+                            <img class="ph1 w3 h3 v-mid ba br3 b--transparent" src="{{ speaker.img }}" alt="Speaker headshot"/>
+                            <span class="ph1 v-mid">{{ speaker.name }}</span>
+                        </a>
+                    {% endfor %}
                 </div>
             </div>
-        </a>
+        </div>
     {% endfor %}
 </div>

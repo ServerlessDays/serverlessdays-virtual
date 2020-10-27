@@ -1,50 +1,95 @@
 [
     {   
-        "startTime" : "4pm PDT (27th) / 7pm EDT (27th) / 12am BST / 8am JST / 9am AEST",
-        "speaker": "Jeremy Daly",
-        "speakerURL": "/speakers/202007/jeremydaly/",
-        "sessionName": "Introductions"
+        "startTime" : ["5pm CET" , "4pm GMT" , "12pm ET" , "9am PT"],
+        "speakers": [ 
+            {
+                "name": "Jeremy Daly",
+                "url": "speakers/202010/jeremydaly/",
+                "img": "/img/jeremy-daly.png"
+            }
+        ],
+        "sessionName": "Opening Remarks"
     },
     {   
-        "startTime" : "4:10pm PDT (27th) / 7:10pm EDT (27th) / 12:10am BST / 8:10am JST / 9:10am AEST",
-        "speaker": "Adrian Cockroft`    ",
-        "speakerURL": "/speakers/202007/adrian/",
-        "sessionName": "Opening Keynote"
+        "startTime" : ["5:20pm CET" , "4:20pm GMT" , "12:20pm ET" , "9:20am PT"],
+        "speakers": [ 
+            {
+                "name": "Chris Munns",
+                "url": "/speakers/202010/chris",
+                "img": "/img/202010/chris_munns.jpg"
+            }
+        ],
+        "sessionName": "Six Years of Serverless, or why I’ve forgotten how to SSH"
     },
     {   
-        "startTime" : "5pm PDT (27th) / 8pm EDT (27th) / 1am BST / 9am JST / 10am AEST",
-        "speaker": "Linda Nichols",
-        "speakerURL": "/speakers/202007/linda/",
-        "sessionName": "Serverless to Code-less"
+        "startTime" : ["6:10pm CET" , "5:10pm GMT" , "1:10pm ET" , "10:10am PT"],
+        "speakers": [ 
+            {
+                "name": "Susanne Kaiser",
+                "url": "/speakers/202010/susanne",
+                "img": "/img/202010/susanne_kaiser.jpg"
+            }
+        ],
+        "sessionName": "Designing a Serverless Application with Domain Driven Design"
     },
     {   
-        "startTime" : "5:40pm PDT (27th) / 8:40pm EDT (27th) / 1:40am BST / 9:40am JST / 10:40am AEST",
-        "speaker": "Rustem Feyzkhanov",
-        "speakerURL": "/speakers/202007/rustem/",
-        "sessionName": "Serverless for AI applications"
+        "startTime" : ["6:50pm CET" , "5:50pm GMT" , "1:50pm ET" , "10:50am PT"],
+        "speakers": [ 
+            {
+                "name": "Slobodan Stojanović",
+                "url": "/speakers/202010/slobodan",
+                "img": "/img/202010/slobodan_stojanovic.jpg"
+            }
+        ],
+        "sessionName": "The power of serverless GraphQL with AppSync"
     },
     {   
-        "startTime" : "6:25pm PDT (27th) / 9:25pm EDT (27th) / 2:25am BST / 10:25am JST / 11:25am AEST",
-        "speaker": "Rich Buggy",
-        "speakerURL": "/speakers/202007/rich/",
-        "sessionName": "Single Table DynamoDB for AppSync"
+        "startTime" : ["7:45pm CET" , "6:45pm GMT" , "2:45pm ET" , "11:45am PT"],
+        "speakers": [ 
+            {
+                "name": "Alexandra Abbas",
+                "url": "/speakers/202010/alexandra",
+                "img": "/img/202010/alexandra_abbas.jpg"
+            }
+        ],
+        "sessionName": "Creating a fully serverless workflow management platform — an experiment on Google Cloud"
     },
     {   
-        "startTime" : "7:00pm PDT (27th) / 10:00pm EDT (27th) / 3:00am BST / 11:00am JST / 12:00pm AEST",
-        "speaker": "Will Velida",
-        "speakerURL": "/speakers/202007/will/",
-        "sessionName": "Building Event-driven applications using Azure Cosmos DB and Azure Functions"
+        "startTime" : ["8:20pm CET" , "7:20pm GMT" , "3:20pm ET" , "12:20pm PT"],
+        "speakers": [ 
+            {
+                "name": "Marie Hoeger",
+                "url": "/speakers/202010/marie",
+                "img": "/img/202010/marie_hoeger.jpg"
+            }
+        ],
+        "sessionName": "Serverless under the hood with Azure Functions"
     },
     {   
-        "startTime" : "7:50pm PDT (27th) / 10:50pm EDT (27th) / 3:50am BST / 11:50pm JST / 12:50pm AEST",
-        "speaker": "Denis Bauer",
-        "speakerURL": "/speakers/202007/denis/",
-        "sessionName": "Serverless in the fight against COVID-19"
+        "startTime" : ["8:55pm CET" , "7:55pm GMT" , "3:55pm ET" , "12:55pm PT"],
+        "speakers": [ 
+            {
+                "name": "Nicole Yip",
+                "url": "/speakers/202010/nicole",
+                "img": "/img/202010/nicole_yip.jpg"
+            },
+            {
+                "name": "Hannah Tucker McLellan",
+                "url": "/speakers/202010/hannah",
+                "img": "/img/202010/hannah_tucker_mclellan.jpg"
+            }
+        ],
+        "sessionName": "How we are continuously improving our serverless standards at The LEGO Group"
     },
     {   
-        "startTime" : "8:20pm PDT (27th) / 11:20pm EDT (27th) / 4:20am BST / 12:20am JST / 1:20pm AEST",
-        "speaker": "ServerlessDays Virtual Team",
-        "speakerURL": "/",
+        "startTime" : ["9:35pm CET" , "8:35pm GMT" , "4:35pm ET" , "1:35pm PT"],
+        "speakers": [ 
+            {
+                "name": "Jeremy Daly",
+                "url": "speakers/202010/jeremydaly/",
+                "img": "/img/jeremy-daly.png"
+            }
+        ],
         "sessionName": "Closing Remarks"
     }
 ]
