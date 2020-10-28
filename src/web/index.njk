@@ -74,6 +74,17 @@ page:
     </div>
     <div class="w-100 bg-white dark-gray">
         <div class="mh2 ml4-m ml5-l">
+            <h2 class="pt5 pb3 mv0 f2 f1-l dark-gray tc">Watch</h2>
+        </div>
+        <div class="tc">
+            {% include 'components/youtube.njk' %}
+            <div class="pa4">
+                Join the conversation on <a class="no-underline pointer" href="{{ event.discord }}" target="_blank"><img class="w4 v-mid" src="/img/discord.svg" alt="Discord"/></a>
+            </div>
+        </div>
+    </div>
+    <div class="w-100 bg-white dark-gray">
+        <div class="mh2 ml4-m ml5-l">
             <h2 class="pt5 pb3 mv0 f2 f1-l dark-gray tc">Schedule</h2>
         </div>
         {% include 'components/schedule.njk' %}
