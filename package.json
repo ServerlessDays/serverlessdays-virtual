@@ -23,7 +23,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "clean-css": "^4.2.3",
-    "jsdom": "^16.4.0",
+    "jsdom": "^16.5.0",
     "markdown-it": "^11.0.1",
     "node-fetch": "^3.0.0-beta.9",
     "purgecss": "^3.0.0"
